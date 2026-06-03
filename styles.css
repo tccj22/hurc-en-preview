@@ -186,7 +186,7 @@ button {
 .zh .nav-menu {
   right: 0;
   left: auto;
-  text-align: right;
+  text-align: left;
 }
 
 .nav-group.open .nav-menu,
@@ -209,8 +209,8 @@ button {
 }
 
 .zh .nav-menu button {
-  justify-content: flex-end;
-  text-align: right;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .nav-menu button:hover {

@@ -22,7 +22,7 @@ const icons = {
   mail: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>`,
 };
 
-const data = await fetch("data/home.json?v=pages-60").then((response) => response.json());
+const data = await fetch("data/home.json?v=pages-61").then((response) => response.json());
 const routeLabelMap = {};
 let currentRoute = routeFromHash();
 let sourceEditorUnlocked = false;
@@ -292,9 +292,9 @@ const caseStudyBoldLines = {
       "An Age-Inclusive Urban Ecosystem",
     ],
     zh: [
-      "專案背景及挑戰",
-      "保障服務連續性",
-      "一個包容所有年齡層的都市生態系統",
+      "基地與背景介紹",
+      "服務不中斷",
+      "全齡友善都市生態系",
     ],
   },
 };
