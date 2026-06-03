@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>中心英文網站翻譯對照Demo</title>
+    <meta name="description" content="提供中心內部檢視英文網站結構與內容">
+    <meta property="og:title" content="中心英文網站翻譯對照Demo">
+    <meta property="og:description" content="提供中心內部檢視英文網站結構與內容">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="中心英文網站翻譯對照Demo">
+    <meta name="twitter:description" content="提供中心內部檢視英文網站結構與內容">
+    <link rel="stylesheet" href="styles.css?v=pages-60">
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <div class="loading">Loading homepage prototype...</div>
+    </div>
+
+    <dialog id="scheduleDialog" class="schedule-dialog" aria-labelledby="scheduleDialogTitle">
+      <button class="dialog-close schedule-dialog-close" type="button" aria-label="關閉說明視窗" data-schedule-dialog-close>×</button>
+      <div class="schedule-dialog-body">
+        <div class="schedule-dialog-title-row">
+          <h2 id="scheduleDialogTitle">英文網站內容與檢視時程說明</h2>
+          <p class="schedule-dialog-note">本網站限電腦閱讀</p>
+        </div>
+
+        <section class="schedule-dialog-section">
+          <h3>內容設計說明</h3>
+          <ol class="schedule-list">
+            <li><span>1、</span><p>英文網站設計原則如同展開三折頁簡介，以概要式說明本中心組織、業務亮點。</p></li>
+            <li><span>2、</span><p>內容採用過去中心對外中英文出版品、社群平台既有的敘述進行改寫，可點選中央資訊帶之「參考出處」。</p></li>
+            <li><span>3、</span><p>本網站為內部Demo，非網站廠商最終呈現的畫面。提供給網站廠商的示意圖請點選中央資訊帶之「畫面預覽」。</p></li>
+            <li><span>4、</span><p>請各部門同仁協助檢視架構與內容(圖片、文字)，因後續仍有委外翻譯社流程，英文字詞部分建議可針對各單位業務之專有名詞進行檢視，文法與句序應用委由翻譯社協助。</p></li>
+          </ol>
+        </section>
+
+        <section class="schedule-dialog-section">
+          <h3>檢視時程說明</h3>
+          <ol class="schedule-list">
+            <li><span>1、</span><p>6/3（三）－6/9（二），請各部門窗口協助檢視架構與內容</p></li>
+            <li><span>2、</span><p>6/11（四），提供廠商「執行長會議版」進行測試環境的架構。</p></li>
+            <li><span>3、</span><p>6月－7月，針對文法、句序、專有名詞運用委外翻譯社確認。</p></li>
+            <li><span>4、</span><p>7月中前後，中文網站、英文網站測試環境提供執行長會議裁示（資訊組）。</p></li>
+            <li><span>5、</span><p>依據執行長會議、委外翻譯社調整內容，再行定稿英文網站。</p></li>
+          </ol>
+        </section>
+
+        <p class="schedule-contact">如有任何建議或尚須調整內容請聯繫 307 漳玨賢<br>謝謝各部門同仁協助！</p>
+
+        <div class="schedule-dialog-actions">
+          <button type="button" data-schedule-dialog-close>關閉</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="previewDialog" class="preview-dialog">
+      <button class="dialog-close" type="button" aria-label="Close preview">×</button>
+      <img alt="" id="previewImage">
+      <p id="previewCaption"></p>
+    </dialog>
+
+    <dialog id="sourceEditorDialog" class="source-editor-dialog">
+      <div class="dialog-head">
+        <h2>參考出處編修</h2>
+        <button class="dialog-close source-editor-close" type="button" aria-label="Close source editor">×</button>
+      </div>
+      <div class="source-editor-auth">
+        <label>
+          <span>編修密碼</span>
+          <input type="password" id="sourceEditorPassword" inputmode="numeric" autocomplete="off" placeholder="輸入密碼後可編修">
+        </label>
+        <button type="button" data-source-editor-unlock>解鎖編修</button>
+        <p id="sourceEditorStatus">目前為唯讀模式</p>
+      </div>
+      <div class="source-editor-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>標註單位</th>
+              <th>參考出處檔案連結</th>
+              <th>備註</th>
+            </tr>
+          </thead>
+          <tbody id="sourceEditorRows"></tbody>
+        </table>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" data-source-editor-cancel>取消</button>
+        <button type="button" data-source-editor-save disabled>儲存</button>
+      </div>
+    </dialog>
+
+  <script type="module" src="app.js?v=pages-60"></script>
+</body>
+</html>
