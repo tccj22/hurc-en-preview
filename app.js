@@ -22,7 +22,7 @@ const icons = {
   mail: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>`,
 };
 
-const data = await fetch("data/home.json?v=pages-61").then((response) => response.json());
+const data = await fetch("data/home.json?v=pages-64").then((response) => response.json());
 const routeLabelMap = {};
 let currentRoute = routeFromHash();
 let sourceEditorUnlocked = false;
