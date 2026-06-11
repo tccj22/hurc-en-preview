@@ -319,6 +319,15 @@ button {
   padding-left: clamp(22px, 4vw, 58px);
 }
 
+.lane.en p {
+  text-align: justify;
+}
+
+.intro-row .lane.en p,
+.lane.en .method-card p {
+  text-align: left;
+}
+
 .lane.zh {
   padding-right: clamp(22px, 4vw, 58px);
 }
@@ -1204,6 +1213,12 @@ p {
   background: var(--green);
   color: #fff;
   font-weight: 800;
+}
+
+.schedule-green,
+.schedule-green span,
+.schedule-green p {
+  color: var(--green-dark) !important;
 }
 
 .preview-dialog {

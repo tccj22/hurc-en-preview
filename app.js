@@ -22,13 +22,38 @@ const icons = {
   mail: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>`,
 };
 
-const data = await fetch("data/home.json?v=pages-64").then((response) => response.json());
+let data;
 const routeLabelMap = {};
 let currentRoute = routeFromHash();
 let sourceEditorUnlocked = false;
 let scheduleDialogDismissed = false;
 let pendingScheduleDialog = false;
 let pendingScheduleDialogForce = false;
+
+function showFatalError(message) {
+  if (app) {
+    app.innerHTML = `<pre style="white-space:pre-wrap;padding:20px;color:#900;background:#fff;border:1px solid #900;">${escapeHtml(message)}</pre>`;
+  }
+  console.error(message);
+}
+
+async function initialize() {
+  try {
+    const response = await fetch(`data/home.json?t=${Date.now()}`);
+    if (!response.ok) throw new Error(`Failed to load data/home.json (${response.status} ${response.statusText})`);
+    data = await response.json();
+  } catch (error) {
+    showFatalError(`Data load error: ${error?.message || error}`);
+    return;
+  }
+
+  collectRouteLabels();
+  carouselPhotos = buildCarouselMap();
+  if (currentRoute !== "home" && !data.pages?.[currentRoute]) currentRoute = "home";
+  queueScheduleDialog();
+  render();
+  setupInteractions();
+}
 
 function text(value) {
   return value || "";
@@ -68,7 +93,6 @@ function collectRouteLabels() {
   });
 }
 
-collectRouteLabels();
 
 function loadSourceLinks() {
   const defaults = Object.fromEntries(
@@ -224,7 +248,7 @@ function buildCarouselMap() {
   return map;
 }
 
-const carouselPhotos = buildCarouselMap();
+let carouselPhotos;
 
 const majorAffairsTargets = {
   "E-B-1-1": "E-B-2",
@@ -256,7 +280,7 @@ const fixedExternalLinks = {
   ],
 };
 
-const titlelessSectionIds = new Set(["E-D-2-1", "E-B-2-1", "E-B-3-1", "E-B-4-1"]);
+const titlelessSectionIds = new Set(["E-D-2-1", "E-B-2-1", "E-B-3-1", "E-B-4-1", "E-A-2-2"]);
 const principalOfficerPageIds = new Set(["E-A-2-2"]);
 const officerProfileSectionIds = new Set([
   "E-A-2-2-1-1",
@@ -292,9 +316,9 @@ const caseStudyBoldLines = {
       "An Age-Inclusive Urban Ecosystem",
     ],
     zh: [
-      "基地與背景介紹",
-      "服務不中斷",
-      "全齡友善都市生態系",
+      "專案背景及挑戰",
+      "保障服務連續性",
+      "一個包容所有年齡層的都市生態系統",
     ],
   },
 };
@@ -824,7 +848,7 @@ function pageSectionPane(section, side) {
       ${hideSectionHeading ? "" : sectionHeading}
       ${specialContent}
       ${specialContent ? "" : textBlocks}
-      ${textBlocks || specialContent ? "" : `<p class="body-text muted-text">${side === "en" ? "Content source is reserved in the spreadsheet." : "內容來源已於試算表保留。"}</p>`}
+      ${textBlocks || specialContent || section.id === "E-A-2-2" ? "" : `<p class="body-text muted-text">${side === "en" ? "Content source is reserved in the spreadsheet." : "內容來源已於試算表保留。"}</p>`}
       ${links}
     </section>
   `;
@@ -921,7 +945,11 @@ function showScheduleDialog(force = false) {
   if (scheduleDialogDismissed) return;
   setTimeout(() => {
     if ((force || !scheduleDialogDismissed) && currentRoute === "home" && !scheduleDialog.open) {
-      scheduleDialog.showModal();
+      if (typeof scheduleDialog.showModal === "function") {
+        scheduleDialog.showModal();
+      } else {
+        scheduleDialog.setAttribute("open", "");
+      }
     }
   }, 120);
 }
@@ -1104,7 +1132,4 @@ function setupInteractions() {
   });
 }
 
-if (currentRoute !== "home" && !data.pages?.[currentRoute]) currentRoute = "home";
-if (currentRoute === "home") queueScheduleDialog();
-render();
-setupInteractions();
+initialize();
