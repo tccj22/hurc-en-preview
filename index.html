@@ -11,7 +11,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="中心英文網站翻譯對照Demo">
     <meta name="twitter:description" content="提供中心內部檢視英文網站結構與內容">
-    <link rel="stylesheet" href="styles.css?v=pages-64">
+    <link rel="stylesheet" href="styles.css?v=pages-100">
   </head>
   <body>
     <div id="app" class="app-shell">
@@ -33,6 +33,7 @@
             <li><span>2、</span><p>內容採用過去中心對外中英文出版品、社群平台既有的敘述進行改寫，可點選中央資訊帶之「參考出處」。</p></li>
             <li><span>3、</span><p>本網站為內部Demo，非網站廠商最終呈現的畫面。提供給網站廠商的示意圖請點選中央資訊帶之「畫面預覽」。</p></li>
             <li><span>4、</span><p>請各部門同仁協助檢視架構與內容(圖片、文字)，因後續仍有委外翻譯社流程，英文字詞部分建議可針對各單位業務之專有名詞進行檢視，文法與句序應用委由翻譯社協助。</p></li>
+            <li class="schedule-green"><span>5、</span><p>右側中文對照方便快速了解左側英文內容之意涵，未來並不會出現在英文官網，也不做中文官網之用。</p></li>
           </ol>
         </section>
 
@@ -93,6 +94,18 @@
       </div>
     </dialog>
 
-  <script type="module" src="app.js?v=pages-64"></script>
+  <script>
+    window.addEventListener('error', (e) => {
+      const app = document.getElementById('app');
+      if (app) app.innerHTML = `<pre style="white-space:pre-wrap;padding:20px;color:#900">Error: ${e.message}</pre>`;
+      console.error(e.error || e.message || e);
+    });
+    window.addEventListener('unhandledrejection', (e) => {
+      const app = document.getElementById('app');
+      if (app) app.innerHTML = `<pre style="white-space:pre-wrap;padding:20px;color:#900">Unhandled Rejection: ${e.reason && e.reason.message ? e.reason.message : String(e.reason)}</pre>`;
+      console.error('Unhandled Rejection:', e.reason);
+    });
+  </script>
+  <script type="module" src="app.js?v=pages-100"></script>
 </body>
 </html>

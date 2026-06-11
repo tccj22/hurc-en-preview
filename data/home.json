@@ -278,7 +278,7 @@
       "component": "C",
       "type": "text",
       "en": "Established by the Ministry of Interior, R.O.C.(Taiwan) in 2018, the National Housing and Urban Regeneration Center (HURC) is a non-departmental public body designed to deliver specialized public services with enhanced efficiency and flexibility. HURC is dedicated to implementing national policies on social housing development and government-led urban regeneration, with the aim of providing affordable housing, revitalizing urban areas, and improving citizens’ quality of life.",
-      "zh": "國家住宅及都市更新中心(HURC)由內政部於2018年設立，，是一個行政法人，以更高的效率和靈活性提供專業化的公共服務。 HURC致力於落實國家社會住宅發展和公辦都更，目標是提供可負擔的住宅、振興城市地區並提高公民的生活品質。",
+      "zh": "國家住宅及都市更新中心(HURC)由內政部於2018年設立，是一個行政法人，以更高的效率和靈活性提供專業化的公共服務。 本中心致力於落實國家社會住宅發展和公辦都更，目標是提供可負擔的住宅、振興城市地區並提高公民的生活品質。",
       "note": "",
       "unit": ""
     },
@@ -332,8 +332,8 @@
       "summary": "台灣的社會住宅",
       "component": "C",
       "type": "text",
-      "en": "Taiwan's social housing is provided on the principle of only renting, but not for selling. The central and local governments collaborate to supply social housing across Taiwan, ensuring people in need have access to affordable rental homes. This is achieved through three parallel approaches: the Social Housing Development Program, the Social Housing Rental Subleasing and Management, and Housing Subsidy.",
-      "zh": "台灣的社會房屋以僅供出租而非出售為原則。中央和地方政府通力合作，在全台範圍內提供社會房屋，確保有需要的人能夠獲得價格合理的租賃住宅。這主要透過三種並行方式實現：社會住宅發展計畫、社會住宅包租代管與租金補貼。",
+      "en": "Taiwan's social housing is provided on the principle of only renting, but not for selling. The central and local governments collaborate to supply social housing across Taiwan, ensuring people in need have access to affordable rental homes. This is achieved through three parallel approaches: the Social Housing Development Program, the Social Housing Rental Subleasing and Management, and Rental Subsidy Program.",
+      "zh": "台灣的社會住宅以只租不售為原則。中央和地方政府通力合作，在全台範圍內提供社會住宅，確保有需要的人能夠獲得價格合理的租賃住宅。這主要透過三種並行方式實現：社會住宅發展計畫、社會住宅包租代管與租金補貼。",
       "note": "",
       "unit": "社會住宅部"
     },
@@ -366,7 +366,7 @@
       "component": "B",
       "type": "text",
       "en": "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC has directly constructed and manages over 70,000 social housing units nationwide.",
-      "zh": "HURC 主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，HURC 已直接興建並管理全國逾 7 萬戶社會住宅。",
+      "zh": "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心已直接興建並管理全國逾 7 萬戶社會住宅。",
       "note": "",
       "unit": "社會住宅部"
     },
@@ -409,8 +409,8 @@
       "summary": "包租代管政策",
       "component": "B",
       "type": "text",
-      "en": "It encourages private landlords to provide their vacant properties as social housing. Through government-commissioned rental operators, landlords receive tax benefits and renovation subsidies. It matches landlords with tenants in need, effectively utilizing existing private housing resources to expand the supply. HURC currently oversees more than 75% of the nation's Social Housing Rental Subleasing and Management operations.",
-      "zh": "包租代管鼓勵私人房東將空置房產提供作為社會住宅使用。透過政府委託的租賃業者，房東可獲得稅收優惠及裝修補貼。本計畫媒合房東與有住房需求的租客，有效運用現有民間住宅資源以擴大社會住宅供給。目前 HURC 負責承擔全國超過 75% 的社會住宅包租代管業務。",
+      "en": "The program encourages private landlords to provide their vacant properties as social housing. Through government-commissioned rental operators, landlords receive tax incentives and renovation subsidies. By matching landlords with tenants in need, the program effectively utilizes existing private housing resources to expand the supply of social housing. HURC currently oversees more than 75% of the nation's Social Housing Rental Subleasing and Management operations",
+      "zh": "包租代管鼓勵私人房東將空置房產提供作為社會住宅使用。透過政府委託的租賃業者，房東可獲得稅收優惠和裝修補貼。本計畫媒合房東與有租賃需求的租客，有效運用現有民間住宅資源以擴大社會住宅供給。目前本中心負責全國超過75%的社會住宅包租代管業務。",
       "note": "",
       "unit": "資產管理部"
     },
@@ -442,8 +442,8 @@
       "summary": "租金補貼並行",
       "component": "A",
       "type": "title",
-      "en": "Housing Subsidy",
-      "zh": "租金補貼",
+      "en": "Rental Subsidy Program",
+      "zh": "租金補貼計畫",
       "note": "",
       "unit": ""
     },
@@ -454,7 +454,7 @@
       "component": "B",
       "type": "text",
       "en": "The central government offers rental subsidy programs that provide tiered subsidy amounts based on the rental location and the applicant's household circumstances to help reduce the burden of renting.",
-      "zh": "中央政府提供租屋補貼計畫，根據租房地點和申請人的家庭狀況提供分級補貼，以幫助減輕租房負擔。",
+      "zh": "中央政府提供租金補貼計畫，根據租房地點和申請人的家庭狀況提供分級補貼，以幫助減輕租房負擔。",
       "note": "",
       "unit": ""
     },
@@ -486,7 +486,7 @@
       "summary": "公辦都更",
       "component": "C",
       "type": "text",
-      "en": "Government-led urban regeneration encompasses far more than constructing new communities and buildings. The greater mission \nis to achieve a balance between urban revitalization and public benefits, while preserving the area's history and cultural heritage, creating diverse housing typologies, and guiding local development.\nBeyond executing government-led urban regeneration projects, HURC also facilitates the participation of state-owned non-operational properties in reconstruction plans for dangerous and aging buildings.",
+      "en": "Government-led urban regeneration encompasses far more than constructing new communities and buildings. The greater mission is to achieve a balance between urban revitalization and public benefits, while preserving the area's history and cultural heritage, creating diverse housing typologies, and guiding local development. Beyond executing government-led urban regeneration projects, HURC also facilitates the participation of state-owned non-operational properties in reconstruction plans for dangerous and aging buildings.",
       "zh": "公辦都更，除了創造嶄新的社區與建築外，更大的責任是兼顧都市再生和公共利益，並保留土地歷史與過去人文記憶，創造多元居住型態與引導地區發展；除了執行公辦都更案，也協助在危老重建範圍內的國有非公用房地，參與重建計畫。",
       "note": "",
       "unit": "都更業務部"
@@ -564,7 +564,7 @@
       "component": "B",
       "type": "text",
       "en": "Every site carries the memory of its community. Before renewal begins, HURC documents and respects local cultural heritage, ensuring history and identity are preserved as the city moves forward.",
-      "zh": "每個地點都承載著所在社區的記憶。在改造開始之前，HURC會對當地的文化遺產進行記錄和尊重，確保在城市發展的過程中，歷史和認同能夠得到傳承。",
+      "zh": "每個地點都承載著所在社區的記憶。在改造開始之前，國家住宅及都市更新中心會對當地的文化遺產進行記錄和尊重，確保在城市發展的過程中，歷史和認同能夠得到傳承。",
       "note": "",
       "unit": "都更業務部"
     },
@@ -870,7 +870,7 @@
         "component": "C",
         "type": "text",
         "en": "Established by the Ministry of Interior, R.O.C.(Taiwan) in 2018, the National Housing and Urban Regeneration Center (HURC) is a non-departmental public body designed to deliver specialized public services with enhanced efficiency and flexibility. HURC is dedicated to implementing national policies on social housing development and government-led urban regeneration, with the aim of providing affordable housing, revitalizing urban areas, and improving citizens’ quality of life.",
-        "zh": "國家住宅及都市更新中心(HURC)由內政部於2018年設立，，是一個行政法人，以更高的效率和靈活性提供專業化的公共服務。 HURC致力於落實國家社會住宅發展和公辦都更，目標是提供可負擔的住宅、振興城市地區並提高公民的生活品質。",
+        "zh": "國家住宅及都市更新中心(HURC)由內政部於2018年設立，是一個行政法人，以更高的效率和靈活性提供專業化的公共服務。 本中心致力於落實國家社會住宅發展和公辦都更，目標是提供可負擔的住宅、振興城市地區並提高公民的生活品質。",
         "note": "",
         "unit": ""
       },
@@ -921,8 +921,8 @@
         "summary": "台灣的社會住宅",
         "component": "C",
         "type": "text",
-        "en": "Taiwan's social housing is provided on the principle of only renting, but not for selling. The central and local governments collaborate to supply social housing across Taiwan, ensuring people in need have access to affordable rental homes. This is achieved through three parallel approaches: the Social Housing Development Program, the Social Housing Rental Subleasing and Management, and Housing Subsidy.",
-        "zh": "台灣的社會房屋以僅供出租而非出售為原則。中央和地方政府通力合作，在全台範圍內提供社會房屋，確保有需要的人能夠獲得價格合理的租賃住宅。這主要透過三種並行方式實現：社會住宅發展計畫、社會住宅包租代管與租金補貼。",
+        "en": "Taiwan's social housing is provided on the principle of only renting, but not for selling. The central and local governments collaborate to supply social housing across Taiwan, ensuring people in need have access to affordable rental homes. This is achieved through three parallel approaches: the Social Housing Development Program, the Social Housing Rental Subleasing and Management, and Rental Subsidy Program.",
+        "zh": "台灣的社會住宅以只租不售為原則。中央和地方政府通力合作，在全台範圍內提供社會住宅，確保有需要的人能夠獲得價格合理的租賃住宅。這主要透過三種並行方式實現：社會住宅發展計畫、社會住宅包租代管與租金補貼。",
         "note": "",
         "unit": "社會住宅部"
       },
@@ -958,7 +958,7 @@
             "component": "B",
             "type": "text",
             "en": "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC has directly constructed and manages over 70,000 social housing units nationwide.",
-            "zh": "HURC 主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，HURC 已直接興建並管理全國逾 7 萬戶社會住宅。",
+            "zh": "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心已直接興建並管理全國逾 7 萬戶社會住宅。",
             "note": "",
             "unit": "社會住宅部"
           },
@@ -984,8 +984,8 @@
             "summary": "包租代管政策",
             "component": "B",
             "type": "text",
-            "en": "It encourages private landlords to provide their vacant properties as social housing. Through government-commissioned rental operators, landlords receive tax benefits and renovation subsidies. It matches landlords with tenants in need, effectively utilizing existing private housing resources to expand the supply. HURC currently oversees more than 75% of the nation's Social Housing Rental Subleasing and Management operations.",
-            "zh": "包租代管鼓勵私人房東將空置房產提供作為社會住宅使用。透過政府委託的租賃業者，房東可獲得稅收優惠及裝修補貼。本計畫媒合房東與有住房需求的租客，有效運用現有民間住宅資源以擴大社會住宅供給。目前 HURC 負責承擔全國超過 75% 的社會住宅包租代管業務。",
+            "en": "The program encourages private landlords to provide their vacant properties as social housing. Through government-commissioned rental operators, landlords receive tax incentives and renovation subsidies. By matching landlords with tenants in need, the program effectively utilizes existing private housing resources to expand the supply of social housing. HURC currently oversees more than 75% of the nation's Social Housing Rental Subleasing and Management operations",
+            "zh": "包租代管鼓勵私人房東將空置房產提供作為社會住宅使用。透過政府委託的租賃業者，房東可獲得稅收優惠和裝修補貼。本計畫媒合房東與有租賃需求的租客，有效運用現有民間住宅資源以擴大社會住宅供給。目前本中心負責全國超過75%的社會住宅包租代管業務。",
             "note": "",
             "unit": "資產管理部"
           },
@@ -1000,8 +1000,8 @@
             "summary": "租金補貼並行",
             "component": "A",
             "type": "title",
-            "en": "Housing Subsidy",
-            "zh": "租金補貼",
+            "en": "Rental Subsidy Program",
+            "zh": "租金補貼計畫",
             "note": "",
             "unit": ""
           },
@@ -1012,7 +1012,7 @@
             "component": "B",
             "type": "text",
             "en": "The central government offers rental subsidy programs that provide tiered subsidy amounts based on the rental location and the applicant's household circumstances to help reduce the burden of renting.",
-            "zh": "中央政府提供租屋補貼計畫，根據租房地點和申請人的家庭狀況提供分級補貼，以幫助減輕租房負擔。",
+            "zh": "中央政府提供租金補貼計畫，根據租房地點和申請人的家庭狀況提供分級補貼，以幫助減輕租房負擔。",
             "note": "",
             "unit": ""
           },
@@ -1098,7 +1098,7 @@
         "summary": "公辦都更",
         "component": "C",
         "type": "text",
-        "en": "Government-led urban regeneration encompasses far more than constructing new communities and buildings. The greater mission \nis to achieve a balance between urban revitalization and public benefits, while preserving the area's history and cultural heritage, creating diverse housing typologies, and guiding local development.\nBeyond executing government-led urban regeneration projects, HURC also facilitates the participation of state-owned non-operational properties in reconstruction plans for dangerous and aging buildings.",
+        "en": "Government-led urban regeneration encompasses far more than constructing new communities and buildings. The greater mission is to achieve a balance between urban revitalization and public benefits, while preserving the area's history and cultural heritage, creating diverse housing typologies, and guiding local development. Beyond executing government-led urban regeneration projects, HURC also facilitates the participation of state-owned non-operational properties in reconstruction plans for dangerous and aging buildings.",
         "zh": "公辦都更，除了創造嶄新的社區與建築外，更大的責任是兼顧都市再生和公共利益，並保留土地歷史與過去人文記憶，創造多元居住型態與引導地區發展；除了執行公辦都更案，也協助在危老重建範圍內的國有非公用房地，參與重建計畫。",
         "note": "",
         "unit": "都更業務部"
@@ -1182,7 +1182,7 @@
             "component": "B",
             "type": "text",
             "en": "Every site carries the memory of its community. Before renewal begins, HURC documents and respects local cultural heritage, ensuring history and identity are preserved as the city moves forward.",
-            "zh": "每個地點都承載著所在社區的記憶。在改造開始之前，HURC會對當地的文化遺產進行記錄和尊重，確保在城市發展的過程中，歷史和認同能夠得到傳承。",
+            "zh": "每個地點都承載著所在社區的記憶。在改造開始之前，國家住宅及都市更新中心會對當地的文化遺產進行記錄和尊重，確保在城市發展的過程中，歷史和認同能夠得到傳承。",
             "note": "",
             "unit": "都更業務部"
           }
@@ -1214,30 +1214,15 @@
       ],
       "route": "urban-regeneration",
       "photos": [
+        
         {
-          "name": "E-H-6-1-A-1_行二行三都更模擬圖_分享暫存區.jpg",
-          "url": "assets/photos/E-H-6-1-01.jpg",
-          "bytes": 2147529,
-          "width": 3981,
-          "height": 2239,
-          "source": "分享暫存區"
-        },
-        {
-          "name": "E-H-6-1-A-2_保二都更模擬圖_分享暫存區.jpg",
-          "url": "assets/photos/E-H-6-1-02.jpg",
-          "bytes": 7021934,
-          "width": 4000,
-          "height": 2353,
-          "source": "分享暫存區"
-        },
-        {
-          "name": "E-H-6-1-A-2_行二行三都更模擬圖_分享暫存區.jpg 的副本.jpg",
-          "url": "assets/photos/E-H-6-1-03.jpg",
-          "bytes": 2147529,
-          "width": 3981,
-          "height": 2239,
-          "source": "分享暫存區.jpg 的副本"
-        },
+        "name": "E-H-6-2.png",
+        "url": "assets/photos/E-H-6-2.png",
+        "bytes": 8462627,
+        "width": 3341,
+        "height": 2214,
+        "source": "模擬圖"
+      },
         {
           "name": "E-H-6-1-A-3_圓山都更模擬圖_分享暫存區.jpg",
           "url": "assets/photos/E-H-6-1-04.jpg",
@@ -1326,7 +1311,7 @@
           "texts": [
             {
               "en": "HURC's core work operates through two closely connected functions.\nThrough social housing development and management, HURC strengthens the rental housing supply structure by delivering and operating affordable housing, while leveraging existing private housing through the Social Housing Rental Subleasing and Management.\nThrough government-led urban regeneration, the Center addresses sites where renewal is constrained by complex ownership, public safety concerns, or the need to preserve public welfare and cultural continuity.",
-              "zh": "HURC的核心工作透過兩項緊密相關的職能來進行。\n\n透過社會住宅的開發和管理，HURC提供並營運可負擔住宅，從而加強租賃住房供應結構；同時，透過社會住宅包租代管，充分利用現有的私人住房資源。\n\n透過政府主導的城市更新項目，中心致力於解決因產權複雜、公共安全問題或維護公共福利和文化傳承等因素而導致更新受限的地塊。",
+              "zh": "國家住宅及都市更新中心的核心工作透過兩項緊密相關的職能來進行。\n\n透過社會住宅的開發和管理，國家住宅及都市更新中心提供並營運可負擔住宅，從而加強租賃住宅供應結構；同時，透過社會住宅包租代管，充分利用現有的私人住宅資源。\n\n透過政府主導的城市更新項目，中心致力於解決因產權複雜、公共安全問題或維護公共福利和文化傳承等因素而導致更新受限的地塊。",
               "component": "B"
             }
           ],
@@ -1441,7 +1426,7 @@
           "texts": [
             {
               "en": "HURC's core work operates through two closely connected functions.\nThrough social housing development and management, HURC strengthens the rental housing supply structure by delivering and operating affordable housing, while leveraging existing private housing through the Social Housing Rental Subleasing and Management.\nThrough government-led urban regeneration, the Center addresses sites where renewal is constrained by complex ownership, public safety concerns, or the need to preserve public welfare and cultural continuity.",
-              "zh": "HURC的核心工作透過兩項緊密相關的職能來進行。\n\n透過社會住宅的開發和管理，HURC提供並營運可負擔住宅，從而加強租賃住房供應結構；同時，透過社會住宅包租代管，充分利用現有的私人住房資源。\n\n透過政府主導的城市更新項目，中心致力於解決因產權複雜、公共安全問題或維護公共福利和文化傳承等因素而導致更新受限的地塊。",
+              "zh": "國家住宅及都市更新中心的核心工作透過兩項緊密相關的職能來進行。\n\n透過社會住宅的開發和管理，國家住宅及都市更新中心提供並營運可負擔住宅，從而加強租賃住宅供應結構；同時，透過社會住宅包租代管，充分利用現有的私人住宅資源。\n\n透過政府主導的城市更新項目，中心致力於解決因產權複雜、公共安全問題或維護公共福利和文化傳承等因素而導致更新受限的地塊。",
               "component": "B"
             }
           ],
@@ -1495,8 +1480,8 @@
           },
           "texts": [
             {
-              "en": "The National Housing and Urban Regeneration Center (HURC) is governed by a Board of Directors and a Board of Supervisors. The HURC is led by one Chairperson who oversees the Center's affairs and represents the organization; one Chief Executive Officer (CEO) who executes business operations and supervises staff; and two Deputy Chief Executive Officers who assist the CEO. \n\nThe HURC comprises two offices, four departments, and one regional branch office.",
-              "zh": "國家住宅及都市更新中心（HURC）由董事會和監事會管理。 HURC由董事長領導，董事長負責監督中心事務並代表中心；一名執行長（CEO）負責執行業務營運並管理員工；兩名副執行長協助執行長工作。\nHURC下設兩個總部、四個部門和一個分區辦公室。",
+              "en": "The National Housing and Urban Regeneration Center (HURC) is governed by a Board of Directors and a Board of Supervisors. The HURC is led by one Chairperson who oversees the Center's affairs and represents the organization; one Chief Executive Officer (CEO) who executes business operations and supervises staff; and two Deputy CEO who assist the CEO. \n\nThe HURC comprises two offices, four departments, and one regional branch office.",
+              "zh": "國家住宅及都市更新中心由董事會和監事會管理。 本中心由董事長領導，董事長負責監督中心事務並代表中心；一名執行長（CEO）負責執行業務營運並管理員工；兩名副執行長協助執行長工作。\n本中心下設兩個總部、四個部門和一個分區辦公室。",
               "component": "A"
             }
           ],
@@ -1642,7 +1627,7 @@
           "texts": [
             {
               "en": "The National Housing and Urban Regeneration Center (HURC) is governed by a Board of Directors and a Board of Supervisors. The HURC is led by one Chairperson who oversees the Center's affairs and represents the organization; one Chief Executive Officer (CEO) who executes business operations and supervises staff; and two Deputy Chief Executive Officers who assist the CEO. \n\nThe HURC comprises two offices, four departments, and one regional branch office.",
-              "zh": "國家住宅及都市更新中心（HURC）由董事會和監事會管理。 HURC由董事長領導，董事長負責監督中心事務並代表中心；一名執行長（CEO）負責執行業務營運並管理員工；兩名副執行長協助執行長工作。\nHURC下設兩個總部、四個部門和一個分區辦公室。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）由董事會和監事會管理。 國家住宅及都市更新中心由董事長領導，董事長負責監督中心事務並代表中心；一名執行長（CEO）負責執行業務營運並管理員工；兩名副執行長協助執行長工作。\n國家住宅及都市更新中心下設兩個總部、四個部門和一個分區辦公室。",
               "component": "A"
             }
           ],
@@ -1804,7 +1789,7 @@
           "texts": [
             {
               "en": "The National Housing and Urban Regeneration Center (HURC) was established on August 1st, 2018. Social housing and urban regeneration are crucial tasks in Taiwan that urgently need to be driven forward, yet they have long been shown to be challenging for both governments and the private sector. Thus, HURC has undertaken various tasks from a national perspective, including social housing construction, operations, government-led urban regenerations, and the \"the Social Housing Rental Subleasing and Management\".\n \nOur focus is not only on the quantity but also on the quality of social housing. We use low-energy materials and earthquake-resistant structures to address the importance of urban sustainability and resilience. Additionally, forming a solid bond in the community contributes to a sense of belonging, trust, and shared experiences that foster emotional support for residents, which is also our goal. Viewing social housing as part of the social welfare system, we assist in strengthening the national social safety net. Therefore, it can be said that HURC's mission is not just about constructing houses; we also uphold public welfare values, align with the national housing policy, increase affordable housing supply, build livable communities, and establish a robust housing industry.\n \nThe government-led urban regeneration is a critical mission of HURC. It involves urban transformation, resilience, and people's property rights security. We have a trusted and efficient team that implements challenging projects. We actively utilize public assets to create public benefits and consider leading urban development a core purpose. Faced with the urgent need to accelerate the reconstruction or renovation of numerous unsafe old buildings nationwide, HURC also works on advancing legislation, collaborating with other organizations, and conducting education and training initiatives to expand and empower domestic professional teams, with the support of the central government.\n \nHURC has been focused on advancing and contributing to national housing policies every step of the way. We team up with central and local governments and private sectors to champion the development of green and sustainable cities, shaping a more favorable living environment. Let us look forward to more exciting stories in the future. Thank you.",
-              "zh": "國家住宅及都市更新中心（HURC）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，HURC從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說HURC的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是HURC的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，HURC積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\nHURC始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，國家住宅及都市更新中心從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說國家住宅及都市更新中心的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是國家住宅及都市更新中心的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，國家住宅及都市更新中心積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\n國家住宅及都市更新中心始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
               "component": "A"
             }
           ],
@@ -2013,7 +1998,7 @@
           "texts": [
             {
               "en": "The National Housing and Urban Regeneration Center (HURC) was established on August 1st, 2018. Social housing and urban regeneration are crucial tasks in Taiwan that urgently need to be driven forward, yet they have long been shown to be challenging for both governments and the private sector. Thus, HURC has undertaken various tasks from a national perspective, including social housing construction, operations, government-led urban regenerations, and the \"the Social Housing Rental Subleasing and Management\".\n \nOur focus is not only on the quantity but also on the quality of social housing. We use low-energy materials and earthquake-resistant structures to address the importance of urban sustainability and resilience. Additionally, forming a solid bond in the community contributes to a sense of belonging, trust, and shared experiences that foster emotional support for residents, which is also our goal. Viewing social housing as part of the social welfare system, we assist in strengthening the national social safety net. Therefore, it can be said that HURC's mission is not just about constructing houses; we also uphold public welfare values, align with the national housing policy, increase affordable housing supply, build livable communities, and establish a robust housing industry.\n \nThe government-led urban regeneration is a critical mission of HURC. It involves urban transformation, resilience, and people's property rights security. We have a trusted and efficient team that implements challenging projects. We actively utilize public assets to create public benefits and consider leading urban development a core purpose. Faced with the urgent need to accelerate the reconstruction or renovation of numerous unsafe old buildings nationwide, HURC also works on advancing legislation, collaborating with other organizations, and conducting education and training initiatives to expand and empower domestic professional teams, with the support of the central government.\n \nHURC has been focused on advancing and contributing to national housing policies every step of the way. We team up with central and local governments and private sectors to champion the development of green and sustainable cities, shaping a more favorable living environment. Let us look forward to more exciting stories in the future. Thank you.",
-              "zh": "國家住宅及都市更新中心（HURC）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，HURC從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說HURC的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是HURC的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，HURC積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\nHURC始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，國家住宅及都市更新中心從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說國家住宅及都市更新中心的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是國家住宅及都市更新中心的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，國家住宅及都市更新中心積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\n國家住宅及都市更新中心始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
               "component": "A"
             }
           ],
@@ -2286,7 +2271,7 @@
           "texts": [
             {
               "en": "The National Housing and Urban Regeneration Center (HURC) was established on August 1st, 2018. Social housing and urban regeneration are crucial tasks in Taiwan that urgently need to be driven forward, yet they have long been shown to be challenging for both governments and the private sector. Thus, HURC has undertaken various tasks from a national perspective, including social housing construction, operations, government-led urban regenerations, and the \"the Social Housing Rental Subleasing and Management\".\n \nOur focus is not only on the quantity but also on the quality of social housing. We use low-energy materials and earthquake-resistant structures to address the importance of urban sustainability and resilience. Additionally, forming a solid bond in the community contributes to a sense of belonging, trust, and shared experiences that foster emotional support for residents, which is also our goal. Viewing social housing as part of the social welfare system, we assist in strengthening the national social safety net. Therefore, it can be said that HURC's mission is not just about constructing houses; we also uphold public welfare values, align with the national housing policy, increase affordable housing supply, build livable communities, and establish a robust housing industry.\n \nThe government-led urban regeneration is a critical mission of HURC. It involves urban transformation, resilience, and people's property rights security. We have a trusted and efficient team that implements challenging projects. We actively utilize public assets to create public benefits and consider leading urban development a core purpose. Faced with the urgent need to accelerate the reconstruction or renovation of numerous unsafe old buildings nationwide, HURC also works on advancing legislation, collaborating with other organizations, and conducting education and training initiatives to expand and empower domestic professional teams, with the support of the central government.\n \nHURC has been focused on advancing and contributing to national housing policies every step of the way. We team up with central and local governments and private sectors to champion the development of green and sustainable cities, shaping a more favorable living environment. Let us look forward to more exciting stories in the future. Thank you.",
-              "zh": "國家住宅及都市更新中心（HURC）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，HURC從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說HURC的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是HURC的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，HURC積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\nHURC始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，國家住宅及都市更新中心從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說國家住宅及都市更新中心的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是國家住宅及都市更新中心的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，國家住宅及都市更新中心積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\n國家住宅及都市更新中心始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
               "component": "A"
             }
           ],
@@ -2379,7 +2364,7 @@
           "texts": [
             {
               "en": "The National Housing and Urban Regeneration Center (HURC) was established on August 1st, 2018. Social housing and urban regeneration are crucial tasks in Taiwan that urgently need to be driven forward, yet they have long been shown to be challenging for both governments and the private sector. Thus, HURC has undertaken various tasks from a national perspective, including social housing construction, operations, government-led urban regenerations, and the \"the Social Housing Rental Subleasing and Management\".\n \nOur focus is not only on the quantity but also on the quality of social housing. We use low-energy materials and earthquake-resistant structures to address the importance of urban sustainability and resilience. Additionally, forming a solid bond in the community contributes to a sense of belonging, trust, and shared experiences that foster emotional support for residents, which is also our goal. Viewing social housing as part of the social welfare system, we assist in strengthening the national social safety net. Therefore, it can be said that HURC's mission is not just about constructing houses; we also uphold public welfare values, align with the national housing policy, increase affordable housing supply, build livable communities, and establish a robust housing industry.\n \nThe government-led urban regeneration is a critical mission of HURC. It involves urban transformation, resilience, and people's property rights security. We have a trusted and efficient team that implements challenging projects. We actively utilize public assets to create public benefits and consider leading urban development a core purpose. Faced with the urgent need to accelerate the reconstruction or renovation of numerous unsafe old buildings nationwide, HURC also works on advancing legislation, collaborating with other organizations, and conducting education and training initiatives to expand and empower domestic professional teams, with the support of the central government.\n \nHURC has been focused on advancing and contributing to national housing policies every step of the way. We team up with central and local governments and private sectors to champion the development of green and sustainable cities, shaping a more favorable living environment. Let us look forward to more exciting stories in the future. Thank you.",
-              "zh": "國家住宅及都市更新中心（HURC）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，HURC從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說HURC的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是HURC的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，HURC積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\nHURC始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）於2018年8月1日成立。社會住宅及都市更新是台灣亟需推動的關鍵任務，但長期以來，無論對政府或私部門而言，這都是一項挑戰。因此，國家住宅及都市更新中心從國家層級承擔了多項任務，包括社會住宅的建造、營運、公辦都更以及「包租代管」。\n\n我們不僅關注社會住宅的數量，更注重其品質。我們採用低能耗材料和抗震結構，以應對城市永續發展和韌性的重要性。此外，我們致力於在社區內建立牢固的聯繫，增強居民的歸屬感、信任感和共同經歷，從而促進情感支持，這也是我們的目標。我們將社會住宅視為社會福利體系的一部分，協助強化國家社會保障體系。因此，可以說國家住宅及都市更新中心的使命不僅僅是建造住宅；我們秉持公益價值觀，與國家住宅政策保持一致，致力於增加保障性住宅供應，建設宜居社區，並打造健全的住宅產業。\n\n公辦都更是國家住宅及都市更新中心的關鍵任務。它涉及城市轉型、韌性建設和人民財產權保障。我們擁有一支值得信賴、高效專業的團隊，負責執行各項挑戰性專案。我們積極利用公共資源創造公共利益，並將引領城市發展視為核心宗旨。面對全國大量危屋老舊建築亟待改造或翻新的現狀，在中央政府的支持下，國家住宅及都市更新中心積極推進立法工作，與其他機構合作，並開展教育培訓，以壯大和提升國內專業團隊。\n\n國家住宅及都市更新中心始終致力於推動和貢獻國家住房政策。我們與中央、地方政府和私部門攜手合作，倡議綠色永續城市建設，打造更宜居的生活環境。讓我們共同期待未來更多精彩篇章。謝謝。",
               "component": "A"
             }
           ],
@@ -2440,7 +2425,7 @@
           "texts": [
             {
               "en": "Office Location\nNational Housing and Urban Regeneration Center (HURC) Address: No. 21, Sec. 1, Minsheng E. Rd., Zhongshan Dist., Taipei City 104019, Taiwan\n\nTransportation Guide\nBy MRT (Metro):\nTake the Tamsui-Xinyi Line (淡水信義線) / Red Line to Shuanglian Station (雙連站)；Exit from Exit 2；Walk approximately 5-8 minutes along Minsheng E. Rd. to reach HURC\n\nOffice Hours\nMonday to Friday: 9:00 AM - 5:00 PM Saturday, Sunday, and National Holidays: Closed\nNote: Please schedule appointments in advance for international visitors to ensure appropriate staff availability and language support.",
-              "zh": "辦公地點\n\n國家住宅及都市更新中心（HURC）地址：台灣台北市中山區民生東路一段21號（郵編：104019）\n\n交通指南\n\n搭乘捷運（紅線）：\n\n搭乘淡水信義線（紅線）至雙連站；從2號出口出站；沿民生東路步行約5-8分鐘即可抵達房國家住宅及都市更新中心\n\n辦公時間\n\n週一至週五：上午9:00至下午5:00 週六、週日及法定假日：休息\n\n注意：國際訪客請提前預約，以便安排合適的工作人員並提供語言支援。",
+              "zh": "辦公地點\n\n國家住宅及都市更新中心（國家住宅及都市更新中心）地址：台灣台北市中山區民生東路一段21號（郵編：104019）\n\n交通指南\n\n搭乘捷運（紅線）：\n\n搭乘淡水信義線（紅線）至雙連站；從2號出口出站；沿民生東路步行約5-8分鐘即可抵達房國家住宅及都市更新中心\n\n辦公時間\n\n週一至週五：上午9:00至下午5:00 週六、週日及法定假日：休息\n\n注意：國際訪客請提前預約，以便安排合適的工作人員並提供語言支援。",
               "component": "A"
             }
           ],
@@ -2527,7 +2512,7 @@
           "texts": [
             {
               "en": "Office Location\nNational Housing and Urban Regeneration Center (HURC) Address: No. 21, Sec. 1, Minsheng E. Rd., Zhongshan Dist., Taipei City 104019, Taiwan\n\nTransportation Guide\nBy MRT (Metro):\nTake the Tamsui-Xinyi Line (淡水信義線) / Red Line to Shuanglian Station (雙連站)；Exit from Exit 2；Walk approximately 5-8 minutes along Minsheng E. Rd. to reach HURC\n\nOffice Hours\nMonday to Friday: 9:00 AM - 5:00 PM Saturday, Sunday, and National Holidays: Closed\nNote: Please schedule appointments in advance for international visitors to ensure appropriate staff availability and language support.",
-              "zh": "辦公地點\n\n國家住宅及都市更新中心（HURC）地址：台灣台北市中山區民生東路一段21號（郵編：104019）\n\n交通指南\n\n搭乘捷運（紅線）：\n\n搭乘淡水信義線（紅線）至雙連站；從2號出口出站；沿民生東路步行約5-8分鐘即可抵達房國家住宅及都市更新中心\n\n辦公時間\n\n週一至週五：上午9:00至下午5:00 週六、週日及法定假日：休息\n\n注意：國際訪客請提前預約，以便安排合適的工作人員並提供語言支援。",
+              "zh": "辦公地點\n\n國家住宅及都市更新中心（國家住宅及都市更新中心）地址：台灣台北市中山區民生東路一段21號（郵編：104019）\n\n交通指南\n\n搭乘捷運（紅線）：\n\n搭乘淡水信義線（紅線）至雙連站；從2號出口出站；沿民生東路步行約5-8分鐘即可抵達房國家住宅及都市更新中心\n\n辦公時間\n\n週一至週五：上午9:00至下午5:00 週六、週日及法定假日：休息\n\n注意：國際訪客請提前預約，以便安排合適的工作人員並提供語言支援。",
               "component": "A"
             }
           ],
@@ -2576,7 +2561,7 @@
           "texts": [
             {
               "en": "The HURC is involved in all stages of building social housing, from land preparation and planning to construction, ensuring a continuous supply of affordable, rent-only housing",
-              "zh": "國家住宅及都市更新中心（HURC）參與社會住宅建設的各個階段，從土地準備和規劃到施工，確保持續供應價格適中的僅出租房屋。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）參與社會住宅建設的各個階段，從土地準備和規劃到施工，確保持續供應價格適中的僅出租房屋。",
               "component": "C"
             }
           ],
@@ -2687,19 +2672,19 @@
           "sourceNote": "廠商設計",
           "unit": "資產管理部",
           "title": {
-            "en": "Social housing Operation",
+            "en": "Social Housing Operations",
             "zh": "營運社會住宅"
           },
           "texts": [
             {
-              "en": "It involves  management of government-developed social housing and other real estate to continuously provide affordable housing options. And execuing Social Rental Housing Subleasing and Management",
-              "zh": "它涉及對政府開發的社會住宅和其他房地產的管理，以持續提供經濟適用房選擇，並執行包租代管政策。",
+              "en": "HURC integrates  and manages government-developed social housing and  other real estate assets to continuously provide affordable housing options. while implementing Social Housing Rental Subleasing and Management",
+              "zh": "本中心整合與管理政府開發的社會住宅和其他不動產，以持續提供可負擔住宅選擇，同時實施社會住宅包租代管計畫",
               "component": "C"
             }
           ],
           "titleRows": [
             {
-              "en": "Social housing Operation",
+              "en": "Social Housing Operations",
               "zh": "營運社會住宅",
               "component": "B"
             }
@@ -2759,7 +2744,7 @@
           "texts": [
             {
               "en": "In recent years, the HURC has been actively involved in social housing construction to align the housing policies. Social housing developments are currently underway in various cities across Taiwan, including outlying islands. Also, we have adopted diverse approaches to obtain housing units, such as acquire social housing through government-led urban renewal.",
-              "zh": "近年來，HURC積極參與社會住宅建設，以配合住宅政策。目前，台灣各城市（包括離島）均有社會住宅計畫正在興建中。此外，我們也採取多種方式取得住宅單元，例如在公辦都更中進行資產配置。",
+              "zh": "近年來，國家住宅及都市更新中心積極參與社會住宅建設，以配合住宅政策。目前，台灣各城市（包括離島）均有社會住宅計畫正在興建中。此外，我們也採取多種方式取得住宅單元，例如在公辦都更中進行資產配置。",
               "component": "A"
             }
           ],
@@ -2786,8 +2771,8 @@
           },
           "texts": [
             {
-              "en": "Land acquisition: inventory of public land, preliminary planning, urban planning changes\nPlanning coordination: local communication, demand and financial analysis, project approval\nDesign and construction: site simulation, tendering, project management and supervision\nOperation and management: leasing, maintenance, and repair.",
-              "zh": "土地取得：盤點國公有土地、先期規劃、都市計畫變更\n規劃協調：在地溝通、需求與財務分析、興辦事業計畫報核\n設計興建：基地模擬、案件招標、工程管理及督導\n營運管理：招租、維護、修繕",
+              "en": "Land acquisition: inventory of public land, preliminary planning, urban planning changes\nPlanning coordination: local communication, demand and financial analysis, project approval\nDesign and Construction: Site Simulation, Project Tendering, Design Management, Construction Management, and Supervision\nOperation and management: leasing, maintenance, and repair.",
+              "zh": "土地取得：盤點國公有土地、先期規劃、都市計畫變更\n規劃協調：在地溝通、需求與財務分析、興辦事業計畫報核\n設計興建：基地模擬、案件招標、設計管理、工程管理及督導\n營運管理：招租、維護、修繕",
               "component": "B"
             }
           ],
@@ -2879,7 +2864,7 @@
           "texts": [
             {
               "en": "Leading Taiwan Towards 2050 Net-Zero Emissions. We ensure exceptional living quality through our \"3+1 Level Construction Quality Management\" system. Furthermore, all our projects aim to obtain three major certifications: Green Building, Smart Building, and Seismic Resistant Labels. In line with Taiwan's 2050 net-zero carbon emissions pathway, HURC incorporates low-carbon construction methods, employing three sustainable construction techniques — Prefabrication, Aluminum Formwork, and Unit Bathroom — to minimize construction waste and reduce carbon emissions throughout the building process. By implementing energy-efficient equipment and rooftop solar power, we have achieved near-zero carbon building (Level 1+) certification in several projects.",
-              "zh": "引領台灣邁向 2050 年淨零排放。我們透過「3+1 級施工品質管理系統」確保卓越的居住品質。此外，所有專案均力求取得三大認證：綠建築、智慧建築與耐震標章。為配合台灣 2050 年淨零碳排路徑，HURC 積極導入低碳建造方法，運用三大永續工法——預鑄工法、鋁模工法及整體衛浴——以降低施工廢棄物並減少整體建造過程中的碳排放。透過配置節能設備與屋頂太陽能系統，我們已在多個專案中達成近零碳建築（1+ 級）認證。",
+              "zh": "引領台灣邁向 2050 年淨零排放。我們透過「3+1 級施工品質管理系統」確保卓越的居住品質。此外，所有專案均力求取得三大認證：綠建築、智慧建築與耐震標章。為配合台灣 2050 年淨零碳排路徑，國家住宅及都市更新中心 積極導入低碳建造方法，運用三大永續工法——預鑄工法、鋁模工法及整體衛浴——以降低施工廢棄物並減少整體建造過程中的碳排放。透過配置節能設備與屋頂太陽能系統，我們已在多個專案中達成近零碳建築（1 級+）認證。",
               "component": "B"
             }
           ],
@@ -2956,8 +2941,8 @@
           },
           "texts": [
             {
-              "en": "Building Inclusive and Friendly Neighborhoods Social housing developments are designed to serve as comprehensive community service hubs. We integrate social welfare amenities tailored to local demographic needs, including childcare facilities,  day-care centers, and disability support services. Through barrier-free open spaces, pedestrian corridors, and boundary-free architectural design, we share our public spaces with the local community, helping to foster a stronger local bond.",
-              "zh": "打造包容友善的社區 社會住宅計畫旨在成為綜合性的社區服務中心。我們整合了符合當地人口需求的社會福利設施，包括托兒設施、日間照顧中心和殘障人士支援服務。透過無障礙開放空間、人行走廊和無邊界的建築設計，我們與當地社區共享公共空間，從而促進更緊密的社區聯繫。",
+              "en": "Social housing not only provides living spaces but also serves as a community service center. By integrating welfare facilities—such as childcare centers, senior daycare centers, and support services for persons with disabilities—it responds to local needs and fosters a diverse and inclusive living environment.\n\nThe spatial planning adopts universal design principles and incorporates open spaces, pedestrian corridors, and borderless architectural design. This approach encourages the sharing of public resources between social housing and surrounding communities, strengthening resident interaction and community connections to create a friend and livable environment",
+              "zh": "社會住宅不僅提供居住空間，更致力於成為社區服務中心。透過設置托育中心、日間照顧中心及身心障礙者支持服務等福利設施，回應在地需求，打造多元共融的生活環境。\n\n空間規劃採通用設計理念，結合開放空間、人行廊道及無邊界建築設計，促進社宅與周邊社區共享公共資源，強化居民互動與社區連結，營造友善宜居的生活環境。",
               "component": "B"
             }
           ],
@@ -3089,14 +3074,14 @@
           "texts": [
             {
               "en": "Located in Fengshan District, Kaohsiung City, the Sheng Li  HURC Social Housing Project is the first comprehensively planned social housing development in Taiwan to adopt a small-scale town development model. Built on a substantial land area, the project integrates neighborhood planning, industrial development, and social welfare policies into a  community.\nCurrently under construction across five sub-sites, the development is expected to open in phases starting from 2030. Upon completion, it is set to become the largest social housing community in Taiwan, accommodating over 5,000  units and housing approximately 12,000 residents.",
-              "zh": "位於高雄市鳳山區的勝利HURC社會住宅計畫是台灣首個採用小城鎮發展模式的綜合規劃社會住宅計畫。該項目佔地廣闊，將鄰裡規劃、產業發展和社會福利政策融為一體。\n\n目前，該項目分五個區域建設，預計2030年起分階段開放。建成後，它將成為台灣最大的社會住宅社區，擁有超過5,000個住宅單元，可容納約12,000名居民。",
+              "zh": "位於高雄市鳳山區的勝利國家住宅及都市更新中心社會住宅計畫是台灣首個採用小城鎮發展模式的綜合規劃社會住宅計畫。該項目佔地廣闊，將鄰裡規劃、產業發展和社會福利政策融為一體。\n\n目前，該項目分五個區域建設，預計2030年起分階段開放。建成後，它將成為台灣最大的社會住宅社區，擁有超過5,000個住宅單元，可容納約12,000名居民。",
               "component": "C"
             }
           ],
           "titleRows": [
             {
               "en": "Case Study2: small-scale town development model\nSheng Li HURC Social Housing Project",
-              "zh": "案例分析\n勝利安居社會住宅",
+              "zh": "案例介紹：小造鎮發展模式\n勝利安居社會住宅",
               "component": "A"
             }
           ],
@@ -3128,7 +3113,7 @@
           },
           "subtitle": {
             "en": "Case Study2: small-scale town development model",
-            "zh": "案例分析"
+            "zh": "案例介紹：小造鎮發展模式"
           }
         }
       ]
@@ -3153,7 +3138,7 @@
           "texts": [
             {
               "en": "HURC goes beyond constructing houses; we directly operate and manage the social housing units we have built, upholding public welfare values to establish a robust social housing management strategy and ensuring a safe and comfortable living environment for families in need. As instructed by the central government, we are expanding the Social Housing Rental Subleasing and Management. Through public-private partnerships, we effectively increase the supply of social housing, providing renters with more diverse and accessible housing options.",
-              "zh": "HURC 不僅止於興建住宅，更直接營運與管理自身興建的社會住宅，秉持公益價值建立健全的社會住宅管理策略，確保有需要的家庭能擁有安全舒適的居住環境。遵照中央政府指示，我們持續擴大社會住宅包租代管業務，透過公私合作夥伴關係有效增加社會住宅供給，為租屋者提供更多元、更便利的住房選擇。",
+              "zh": "本中心不僅興建住宅，更直接營運與管理自身興建的社會住宅，秉持公益價值建立健全的社會住宅管理策略，確保有需要的家庭能擁有安全舒適的居住環境。遵照中央政府指示，我們持續擴大社會住宅包租代管業務，透過公私合作夥伴關係有效增加社會住宅供給，為租屋者提供更多元、更便利的住宅選擇。",
               "component": "A"
             }
           ],
@@ -3259,7 +3244,7 @@
           "texts": [
             {
               "en": "The government entrusts legally registered rental housing service providers to convert privately owned houses into social housing for rent through leasing (subleasing) or management on behalf of tenants (management). This helps landlords reduce their housing management burdens, while tenants rent suitable housing at reasonable rents. By subleasing and managing social housing, landlords and tenants are matched, creating more humane cooperative relationships.\n\nThis will improve the development of the housing rental market, meet diverse housing needs, and contribute to a better living environment.",
-              "zh": "政府委託合法合法的租賃住房服務機構，透過包租代管的方式，將私人房屋改建為社會住宅。這有助於房東減輕住房管理負擔，同時租戶也能以合理的租金租到合適的住房。透過社會住宅包租代管，房東和房客得以匹配，建立更人性化的合作關係。\n\n這將促進住房租賃市場的發展，滿足多樣化的住房需求，並有助於改善居住環境。",
+              "zh": "政府委託合法的租賃住房服務機構，透過包租代管的方式，將私人房屋出租為社會住宅。這有助於房東減輕住房管理負擔，同時租戶也能以合理的租金租到合適的住房。透過社會住宅包租代管，房東和房客得以匹配，建立更人性化的合作關係。\n\n這將促進住房租賃市場的發展，滿足多樣化的住房需求，並有助於改善居住環境。",
               "component": "B"
             }
           ],
@@ -3331,19 +3316,19 @@
           "sourceNote": "林口選手村社會住宅營運案例",
           "unit": "資產管理部",
           "title": {
-            "en": "The Social Housing in Linkou's Former Universiade Athletes' Village",
+            "en": "Linkou Former Universiade Athletes' Village Social Housing",
             "zh": "林口世大運選手村社會住宅"
           },
           "texts": [
             {
-              "en": "The Social Housing in Linkou's Former Universiade Athletes' Village is the first social housing complex managed by HURC and is currently the largest in Taiwan in terms of land area and number of households, with a total of 3,490 residential units.\n\nTo proactively care for the daily lives of residents, we have established a service center and a regular visitation system. NPOs have also been brought on-site to deliver specialized services, including shelter support for survivors of domestic violence, outreach and care for elderly residents, and community programs for families living with autism.\n\nFurthermore, to foster neighborhood integration and community identity, we continually promote the \"Participatory Public Art Project,\" encouraging residents to voluntarily participate in community development through various events",
-              "zh": "林口世大運選手村社會住宅是 HURC 首個接手管理的社會住宅，目前為台灣規模最大的社宅案，佔地面積與住戶數量均居全國之冠，共設有 3,490 戶住宅單元。\n\n為積極關懷住戶的日常生活，我們設立了服務中心並建立定期訪視制度。此外，我們也引進 NPO 進駐，提供專業服務，包括受暴婦女安置支援、高齡長者外展關懷，以及自閉症家庭社群服務。\n\n為促進鄰里融合與社區認同，我們持續推動「參與式公共藝術計畫」，透過多元活動鼓勵住戶自發參與社區發展。",
+              "en": "Linkou Former Universiade Athletes' Village Social Housing is the first social housing complex managed by HURC and is currently the largest in Taiwan in terms of land area and number of households, with a total of 3,490 residential units.\n\nTo proactively care for the daily lives of residents, we have established a service center and a regular visitation system. NPOs have also been brought on-site to deliver specialized services, including shelter support for survivors of domestic violence, outreach and care for elderly residents, and community programs for families living with autism.\n\nFurthermore, to foster neighborhood integration and community identity, we continually promote the \"Participatory Public Art Project,\" encouraging residents to voluntarily participate in community development through various events",
+              "zh": "林口世大運選手村社會住宅是本中心首個接手管理的社會住宅，目前為台灣規模最大的社宅案，佔地面積與住戶數量均居全國之冠，共設有 3,490 戶住宅單元。\n\n為積極關懷住戶的日常生活，我們設立了服務中心並建立定期訪視制度。此外，我們也引進 NPO 進駐，提供專業服務，包括受暴婦女安置支援、高齡長者外展關懷，以及自閉症家庭社群服務。\n\n為促進鄰里融合與社區認同，我們持續推動「參與式公共藝術計畫」，透過多元活動鼓勵住戶自發參與社區發展。",
               "component": "B"
             }
           ],
           "titleRows": [
             {
-              "en": "Case Study: A model of operational experience\nThe Social Housing in Linkou's Former Universiade Athletes' Village",
+              "en": "Case Study: A model of operational experience\nLinkou Former Universiade Athletes' Village Social Housing",
               "zh": "案例介紹：營運經驗的典範\n林口世大運選手村社會住宅",
               "component": "A"
             }
@@ -3429,7 +3414,7 @@
           "texts": [
             {
               "en": "GOV-led urban regeneration is a government-initiated approach that targets areas with urgent renewal needs, prioritizing public interest and safety. These sites typically involve government-owned land or properties belonging to state-owned enterprises. Through this process, HURC coordinates public and private stakeholders, ensuring that upon completion, units are allocated back to the government as social housing, long-term care services, and public benefit facilities.",
-              "zh": "由政府主導的公辦都更，優先考慮公共利益和安全，並專注於亟需改造的區域。這些區域通常涉及政府所有的土地或國有企業的房產。在此過程中，HURC協調公共和私營部門的利益相關者，確保改造完成後，將房屋單元作為社會住宅、長期照護服務和公共福利設施歸還給政府。",
+              "zh": "由政府主導的公辦都更，優先考慮公共利益和安全，並專注於亟需改造的區域。這些區域通常涉及政府所有的土地或國營企業的不動產。在此過程中，本中心透過公、私部門的整合與溝通，透過都市更新將房屋單元作為社會住宅、長期照護服務和公共福利設施歸還給政府。",
               "component": "B"
             }
           ],
@@ -3461,8 +3446,8 @@
               "component": "C"
             },
             {
-              "en": "Memory Preserved, Community Empowered\nThrough the innovative \"Hippocampus Experimental Project\" (海馬迴實驗計劃), the project documented the renewal process through photography and illustration, preserving local cultural memories while applying social design methodologies to help residents become active partners in creating better living environments.",
-              "zh": "記憶得以保存，社區得以培力\n\n透過創新的“海馬實驗計劃”，該計畫以攝影和插畫記錄了更新過程，在保存當地文化記憶的同時，運用社會設計方法幫助居民成為創造更美好生活環境的積極參與者。",
+              "en": "Memory Preserved, Community Empowered\nThrough the innovative \"Hippocampus Experimental Project\" (海馬迴實驗計畫), the project documented the renewal process through photography and illustration, preserving local cultural memories while applying social design methodologies to help residents become active partners in creating better living environments.",
+              "zh": "記憶得以保存，社區得以培力\n\n透過創新的“海馬迴實驗計畫”，該計畫以攝影和插畫記錄了更新過程，在保存當地文化記憶的同時，運用社會設計方法幫助居民成為創造更美好生活環境的積極參與者。",
               "component": "D"
             },
             {
@@ -3528,18 +3513,18 @@
           },
           "texts": [
             {
-              "en": "Site Background and Challenges\nThe Xinyi project spans six sub-sites in Taipei's Xinyi District, centered on two social welfare institutions rooted in the community for over 50 years: the Vocational Training Center (established in 1963) and the Taipei Child Welfare Center (established in 1969). In the 2010s, an urban renewal plan was initiated for Sites A and B but was terminated after two years. In 2018, HURC was established and took over these lands, reengaging in redevelopment efforts. The core challenges were twofold: buildings were constructed on nation-owned land with separated land and building ownership — making it difficult for the operating organization to secure its original footprint after renewal — and the organization needed to continue operating on-site throughout and after the process without interruption.",
-              "zh": "基地與背景介紹\n本案位於台北市信義區，涵蓋六個子基地，以兩個深耕社區逾 50 年的社會福利機構為核心：職業訓練中心（成立於 1963 年）與台北兒童福利中心（成立於 1969 年）。2010 年代，A、B 基地曾一度啟動都更計畫，但歷時兩年規劃後終止。2018 年，HURC 成立並接手此案，重啟都市更新推動工作。本案的核心課題有兩項：建築物坐落於國有土地之上，土地與建築所有權分離，致使營運機構難以在都更後取回所需面積；同時，該機構亦須在整個更新過程中持續在地營運，不得中斷服務。",
+              "en": "Site Background and Challenges\nThe Xinyi project spans six sub-sites in Taipei's Wufenpu area, centered on two social welfare institutions rooted in the community for over 50 years. The Zhonghua Vocational Training Center — aged 54 years, with its operator owning the building but not the land — and declining vocational training demand made renewal both necessary and long overdue.",
+              "zh": "專案背景及挑戰\n\n信義兒福案位於台北市五分埔區，包含六個子計畫點，其核心是兩家紮根社區超過50年的社會福利機構。中華職業訓練中心已有54年歷史，其營運方擁有建築所有權但並非擁有土地所有權。隨著職業技能培訓需求的下降，該中心亟需翻新，且翻新工程早已迫在眉睫。",
               "component": "B"
             },
             {
-              "en": "Continuity of Essential Services\nDesignating B1-1 as the seed site, HURC applied the build-before-demolish strategy and a three-phase Sequential Urban Redevelopment approach. During 2018–2019, dispersed land ownership was consolidated through a valuation mechanism and exchanged at equivalent value, with B1-1 prioritized for investment. In 2021–2022, following the rights exchange, Sites A1, B1-2, and B3-2 were consolidated and investor solicitation launched zone by zone. From 2023 to 2026, with Site B2 ready for investment, the renewal momentum began spreading to surrounding neighborhoods, encouraging local communities to engage in autonomous urban renewal. This approach allowed the kindergarten to continue operating without interruption — transitioning seamlessly into a new facility — while minimizing the relocation burden for all stakeholders throughout the renewal process.",
-              "zh": "服務不中斷\nHURC 選定 B1-1 為種子基地，採用「先建後拆」策略，並分三階段推進連鎖式都市更新。2018 至 2019 年，透過估價機制將分散的土地所有權集中並作等值交換，優先推動 B1-1 基地招商；2021 至 2022 年，完成產權及地上物交換後，整合 A1、B1-2、B3-2 基地所有權人，分區陸續啟動招商；2023 至 2026 年，B2 基地整合完成後啟動都更，更新效益逐步擴散至周邊鄰里，帶動在地自主更新動能。此策略使幼兒園得以在整個都更過程中維持不間斷的正常營運，平穩遷入全新設施，並將對各方的衝擊與遷置負擔降至最低。",
+              "en": "Continuity of Essential Services\n\nDesignating B1-1 as the seed site, HURC applied the build-before-demolish strategy and used land value exchange to consolidate scattered property rights. This allowed the kindergarten to continue operating without interruption — transitioning seamlessly into a new facility — while minimizing the relocation burden for elderly residents throughout the renewal process.",
+              "zh": "保障服務連續性\n\n國家住宅及都市更新中心 將 B1-1 地塊指定為啟動基地，採用先建後拆的策略，並利用土地價值置換來整合分散的產權。這使得幼兒園得以繼續運營，順利過渡到新地點，同時最大限度地減輕了整個改造過程中老年居民的搬遷負擔。",
               "component": "C"
             },
             {
-              "en": "An Age-Inclusive Urban Ecosystem\nBy 2024, all projects had successfully secured investment, attracting over NT$18 billion (approx. EURO 500 million) in total. Across the six sub-sites, the development establishes two distinct communities: Site A — \\\"Home for All Ages\\\" builds an age-inclusive ecosystem combining age-friendly rental housing, medical services, elderly day-care services, and long-term care facilities; Site B — \\\"New Lifestyle of Working and Living\\\" continues the area's traditional attire industry heritage by integrating rental housing, co-working spaces, and business incubators to attract young entrepreneurs and designers, alongside childcare centers to support young families. Public-benefit facilities are donated to the Taipei City Government, while B1-2 and B3-2 are co-designed with Spanish architecture firm EMBT.",
-              "zh": "全齡友善都市生態系\n至 2024 年，信義兒福所有子基地均已完成招商，累計吸引逾 180 億元（約 5 億歐元） 的民間投資。六個子基地發展為兩種截然不同的社區型態：A 基地「全齡友善生態社區」 建構涵蓋高齡友善出租住宅、醫療服務、高齡日間照護中心及長期照護設施的全齡生態系統；B 基地「在地職住生活新模式」 延續當地傳統服飾產業文化，整合出租住宅、共享辦公室及產業新創基地，吸引青年創業者與設計師進駐，並設置托嬰中心與幼兒園，滿足年輕家庭需求。公益設施捐贈予台北市政府，B1-2 及 B3-2 由西班牙建築事務所 EMBT 共同設計。",
+              "en": "An Age-Inclusive Urban Ecosystem\nAcross six sub-sites, the development establishes an age-inclusive ecosystem — combining senior-friendly rental housing, long-term care services, a day-care center, social housing, and youth entrepreneurship spaces. Public-benefit facilities are donated to the Taipei City Government, while B1-2 and B3-2 are co-designed with Spanish architecture firm EMBT.",
+              "zh": "一個包容所有年齡層的都市生態系統\n\n該計畫由六個子基地組成，目的建立一個包容所有年齡層的生態系統——融合了適合長者的租屋單元、長期照顧服務、日照中心、社會住宅以及青年創業空間。公益設施捐贈給台北市政府，而B1-2層和B3-2則由西班牙建築事務所EMBT共同設計。",
               "component": "D"
             }
           ],
@@ -3593,7 +3578,7 @@
           "texts": [
             {
               "en": "The Veterans Resettlement Project is a relocation assistance initiative under HURC's state-led urban regeneration program, designed to protect vulnerable residents — particularly elderly individuals living in deteriorating dormitory conditions — from displacement during urban transformation. Through respectful dialogue and sustained community engagement, HURC works with original residents to carefully assess individual needs and facilitate voluntary relocation to social housing units or suitable rental accommodations, providing access to modernized facilities with contemporary amenities, barrier-free accessibility features, elevator access, and enhanced safety systems.",
-              "zh": "退員安居專案輔導計畫是HURC公辦都更計畫下推出的一項搬遷援助計劃，目的在保護弱勢居民——特別是居住在條件日益惡化的宿舍中的老年人——免於在城市改造過程中流離失所。 HURC透過尊重對話和持續的社區參與，與原始居民合作，認真評估個人需求，並協助他們自願搬遷至社會住宅或合適的租賃住所，從而獲得配備現代化設施、無障礙通道、電梯和增強型安全系統的住房。",
+              "zh": "退員安居專案輔導計畫是國家住宅及都市更新中心公辦都更計畫下推出的一項搬遷援助計劃，目的在保護弱勢居民——特別是居住在條件日益惡化的宿舍中的老年人——免於在城市改造過程中流離失所。 國家住宅及都市更新中心透過尊重對話和持續的社區參與，與原始居民合作，認真評估個人需求，並協助他們自願搬遷至社會住宅或合適的租賃住所，從而獲得配備現代化設施、無障礙通道、電梯和增強型安全系統的住房。",
               "component": "B"
             }
           ],
@@ -3657,7 +3642,7 @@
           "texts": [
             {
               "en": "Urban renewal projects frequently involve complex property rights, irregularly shaped land parcels, and occupancy disputes — factors that create unpredictable variables and require sustained engagement with multiple rights holders over extended periods. To navigate this complexity more effectively, HURC established the Private Sector Integration Partnership, introducing experienced private sector teams to lead stakeholder coordination and property rights consolidation work. Building on the results of the pilot program, HURC has since launched a second phase (2.0), simultaneously advancing additional sites while guiding private integration teams to promote sound urban renewal practices across Taiwan.",
-              "zh": "都市更新計畫往往涉及複雜的產權、不規則形狀的土地以及佔用糾紛——這些因素造成了難以預料的變數，需要與多方權利持有者進行長期持續的溝通協調。為了更有效地應對這種複雜性，HURC成立了私部門整合夥伴關係，引入經驗豐富的私部門團隊來主導利害關係人的協調和產權整合工作。在試點計畫成果的基礎上，HURC已啟動第二階段（2.0），在推動更多計畫的同時，指導私部門整合團隊在台灣各地推廣合理的城市更新實踐。",
+              "zh": "都市更新計畫往往涉及複雜的產權、不規則形狀的土地以及佔用糾紛——這些因素造成了難以預料的變數，需要與多方權利持有者進行長期持續的溝通協調。為了更有效地應對這種複雜性，國家住宅及都市更新中心成立了私部門整合夥伴關係，引入經驗豐富的私部門團隊來主導利害關係人的協調和產權整合工作。在試點計畫成果的基礎上，國家住宅及都市更新中心已啟動第二階段（2.0），在推動更多計畫的同時，指導私部門整合團隊在台灣各地推廣合理的城市更新實踐。",
               "component": "B"
             }
           ],
@@ -3961,7 +3946,7 @@
           "texts": [
             {
               "en": "The HURC is involved in all stages of building social housing, from land preparation and planning to construction, ensuring a continuous supply of affordable, rent-only housing",
-              "zh": "國家住宅及都市更新中心（HURC）參與社會住宅建設的各個階段，從土地準備和規劃到施工，確保持續供應價格適中的僅出租房屋。",
+              "zh": "國家住宅及都市更新中心（國家住宅及都市更新中心）參與社會住宅建設的各個階段，從土地準備和規劃到施工，確保持續供應價格適中的僅出租房屋。",
               "component": "C"
             }
           ],
@@ -4097,8 +4082,8 @@
           },
           "texts": [
             {
-              "en": "It involves  management of government-developed social housing and other real estate to continuously provide affordable housing options. And execuing Social Rental Housing Subleasing and Management",
-              "zh": "它涉及對政府開發的社會住宅和其他房地產的管理，以持續提供經濟適用房選擇，並執行包租代管政策。",
+              "en": "HURC integrates  and manages government-developed social housing and  other real estate assets to continuously provide affordable housing options. while implementing Social Housing Rental Subleasing and Management",
+              "zh": "本中心整合與管理政府開發的社會住宅和其他不動產，以持續提供可負擔住宅選擇，同時實施社會住宅包租代管計畫",
               "component": "C"
             }
           ],
@@ -4164,7 +4149,7 @@
           "texts": [
             {
               "en": "In recent years, the HURC has been actively involved in social housing construction to align the housing policies. Social housing developments are currently underway in various cities across Taiwan, including outlying islands. Also, we have adopted diverse approaches to obtain housing units, such as acquire social housing through government-led urban renewal.",
-              "zh": "近年來，HURC積極參與社會住宅建設，以配合住宅政策。目前，台灣各城市（包括離島）均有社會住宅計畫正在興建中。此外，我們也採取多種方式取得住宅單元，例如在公辦都更中進行資產配置。",
+              "zh": "近年來，國家住宅及都市更新中心積極參與社會住宅建設，以配合住宅政策。目前，台灣各城市（包括離島）均有社會住宅計畫正在興建中。此外，我們也採取多種方式取得住宅單元，例如在公辦都更中進行資產配置。",
               "component": "A"
             }
           ],
@@ -4304,7 +4289,7 @@
           "texts": [
             {
               "en": "Leading Taiwan Towards 2050 Net-Zero Emissions. We ensure exceptional living quality through our \"3+1 Level Construction Quality Management\" system. Furthermore, all our projects aim to obtain three major certifications: Green Building, Smart Building, and Seismic Resistant Labels. In line with Taiwan's 2050 net-zero carbon emissions pathway, HURC incorporates low-carbon construction methods, employing three sustainable construction techniques — Prefabrication, Aluminum Formwork, and Unit Bathroom — to minimize construction waste and reduce carbon emissions throughout the building process. By implementing energy-efficient equipment and rooftop solar power, we have achieved near-zero carbon building (Level 1+) certification in several projects.",
-              "zh": "引領台灣邁向 2050 年淨零排放。我們透過「3+1 級施工品質管理系統」確保卓越的居住品質。此外，所有專案均力求取得三大認證：綠建築、智慧建築與耐震標章。為配合台灣 2050 年淨零碳排路徑，HURC 積極導入低碳建造方法，運用三大永續工法——預鑄工法、鋁模工法及整體衛浴——以降低施工廢棄物並減少整體建造過程中的碳排放。透過配置節能設備與屋頂太陽能系統，我們已在多個專案中達成近零碳建築（1+ 級）認證。",
+              "zh": "引領台灣邁向 2050 年淨零排放。我們透過「3+1 級施工品質管理系統」確保卓越的居住品質。此外，所有專案均力求取得三大認證：綠建築、智慧建築與耐震標章。為配合台灣 2050 年淨零碳排路徑，國家住宅及都市更新中心 積極導入低碳建造方法，運用三大永續工法——預鑄工法、鋁模工法及整體衛浴——以降低施工廢棄物並減少整體建造過程中的碳排放。透過配置節能設備與屋頂太陽能系統，我們已在多個專案中達成近零碳建築（1+ 級）認證。",
               "component": "B"
             }
           ],
@@ -4375,31 +4360,31 @@
     "E-B-2-4": {
       "id": "E-B-2-4",
       "title": {
-        "en": "Community-Centered Design",
-        "zh": "以社區為中心的設計"
+        "en": "Building an Inclusive and Friendly Community",
+        "zh": "打造包容友善的社區"
       },
       "unit": "社會住宅部",
       "sections": [
         {
           "id": "E-B-2-4",
-          "summary": "打造包容友善，以社區為中心的設計",
-          "sourceNote": "打造包容友善，以社區為中心的設計",
+          "summary": "打造包容友善的社區",
+          "sourceNote": "打造包容友善的社區",
           "unit": "社會住宅部",
           "title": {
-            "en": "Community-Centered Design",
-            "zh": "以社區為中心的設計"
+            "en": "Building an Inclusive and Friendly Community",
+            "zh": "打造包容友善的社區"
           },
           "texts": [
             {
-              "en": "Building Inclusive and Friendly Neighborhoods Social housing developments are designed to serve as comprehensive community service hubs. We integrate social welfare amenities tailored to local demographic needs, including childcare facilities,  day-care centers, and disability support services. Through barrier-free open spaces, pedestrian corridors, and boundary-free architectural design, we share our public spaces with the local community, helping to foster a stronger local bond.",
-              "zh": "打造包容友善的社區 社會住宅計畫旨在成為綜合性的社區服務中心。我們整合了符合當地人口需求的社會福利設施，包括托兒設施、日間照顧中心和殘障人士支援服務。透過無障礙開放空間、人行走廊和無邊界的建築設計，我們與當地社區共享公共空間，從而促進更緊密的社區聯繫。",
+              "en": "Social housing not only provides living spaces but also serves as a community service center. By integrating welfare facilities—such as childcare centers, senior daycare centers, and support services for persons with disabilities—it responds to local needs and fosters a diverse and inclusive living environment.\n\nThe spatial planning adopts universal design principles and incorporates open spaces, pedestrian corridors, and borderless architectural design. This approach encourages the sharing of public resources between social housing and surrounding communities, strengthening resident interaction and community connections to create a friendly and livable environment.",
+              "zh": "社會住宅不僅提供居住空間，更致力於成為社區服務中心。透過設置托育中心、日間照顧中心及身心障礙者支持服務等福利設施，回應在地需求，打造多元共融的生活環境。\n\n空間規劃採通用設計理念，結合開放空間、人行廊道及無邊界建築設計，促進社宅與周邊社區共享公共資源，強化居民互動與社區連結，營造友善宜居的生活環境。",
               "component": "B"
             }
           ],
           "titleRows": [
             {
-              "en": "Innovative Mechanism: Community-Centered Design",
-              "zh": "以社區為中心的設計",
+              "en": "Building an Inclusive and Friendly Community",
+              "zh": "打造包容友善的社區",
               "component": "A"
             }
           ],
@@ -4548,7 +4533,7 @@
           "texts": [
             {
               "en": "Located in Fengshan District, Kaohsiung City, the Sheng Li  HURC Social Housing Project is the first comprehensively planned social housing development in Taiwan to adopt a small-scale town development model. Built on a substantial land area, the project integrates neighborhood planning, industrial development, and social welfare policies into a  community.\nCurrently under construction across five sub-sites, the development is expected to open in phases starting from 2030. Upon completion, it is set to become the largest social housing community in Taiwan, accommodating over 5,000  units and housing approximately 12,000 residents.",
-              "zh": "位於高雄市鳳山區的勝利HURC社會住宅計畫是台灣首個採用小城鎮發展模式的綜合規劃社會住宅計畫。該項目佔地廣闊，將鄰裡規劃、產業發展和社會福利政策融為一體。\n\n目前，該項目分五個區域建設，預計2030年起分階段開放。建成後，它將成為台灣最大的社會住宅社區，擁有超過5,000個住宅單元，可容納約12,000名居民。",
+              "zh": "位於高雄市鳳山區的勝利國家住宅及都市更新中心社會住宅計畫是台灣首個採用小城鎮發展模式的綜合規劃社會住宅計畫。該項目佔地廣闊，將鄰裡規劃、產業發展和社會福利政策融為一體。\n\n目前，該項目分五個區域建設，預計2030年起分階段開放。建成後，它將成為台灣最大的社會住宅社區，擁有超過5,000個住宅單元，可容納約12,000名居民。",
               "component": "C"
             }
           ],
@@ -4616,7 +4601,7 @@
           "texts": [
             {
               "en": "HURC goes beyond constructing houses; we directly operate and manage the social housing units we have built, upholding public welfare values to establish a robust social housing management strategy and ensuring a safe and comfortable living environment for families in need. As instructed by the central government, we are expanding the Social Housing Rental Subleasing and Management. Through public-private partnerships, we effectively increase the supply of social housing, providing renters with more diverse and accessible housing options.",
-              "zh": "HURC 不僅止於興建住宅，更直接營運與管理自身興建的社會住宅，秉持公益價值建立健全的社會住宅管理策略，確保有需要的家庭能擁有安全舒適的居住環境。遵照中央政府指示，我們持續擴大社會住宅包租代管業務，透過公私合作夥伴關係有效增加社會住宅供給，為租屋者提供更多元、更便利的住房選擇。",
+              "zh": "本中心不僅興建住宅，更直接營運與管理自身興建的社會住宅，秉持公益價值建立健全的社會住宅管理策略，確保有需要的家庭能擁有安全舒適的居住環境。遵照中央政府指示，我們持續擴大社會住宅包租代管業務，透過公私合作夥伴關係有效增加社會住宅供給，為租屋者提供更多元、更便利的住宅選擇。",
               "component": "A"
             }
           ],
@@ -4813,7 +4798,7 @@
     "E-B-3-4": {
       "id": "E-B-3-4",
       "title": {
-        "en": "The Social Housing in Linkou's Former Universiade Athletes' Village",
+        "en": "Linkou Former Universiade Athletes' Village Social Housing",
         "zh": "林口世大運選手村社會住宅"
       },
       "unit": "資產管理部",
@@ -4824,19 +4809,19 @@
           "sourceNote": "林口選手村社會住宅營運案例",
           "unit": "資產管理部",
           "title": {
-            "en": "The Social Housing in Linkou's Former Universiade Athletes' Village",
+            "en": "Linkou Former Universiade Athletes' Village Social Housing",
             "zh": "林口世大運選手村社會住宅"
           },
           "texts": [
             {
-              "en": "The Social Housing in Linkou's Former Universiade Athletes' Village is the first social housing complex managed by HURC and is currently the largest in Taiwan in terms of land area and number of households, with a total of 3,490 residential units.\n\nTo proactively care for the daily lives of residents, we have established a service center and a regular visitation system. NPOs have also been brought on-site to deliver specialized services, including shelter support for survivors of domestic violence, outreach and care for elderly residents, and community programs for families living with autism.\n\nFurthermore, to foster neighborhood integration and community identity, we continually promote the \"Participatory Public Art Project,\" encouraging residents to voluntarily participate in community development through various events",
-              "zh": "林口世大運選手村社會住宅是 HURC 首個接手管理的社會住宅，目前為台灣規模最大的社宅案，佔地面積與住戶數量均居全國之冠，共設有 3,490 戶住宅單元。\n\n為積極關懷住戶的日常生活，我們設立了服務中心並建立定期訪視制度。此外，我們也引進 NPO 進駐，提供專業服務，包括受暴婦女安置支援、高齡長者外展關懷，以及自閉症家庭社群服務。\n\n為促進鄰里融合與社區認同，我們持續推動「參與式公共藝術計畫」，透過多元活動鼓勵住戶自發參與社區發展。",
+              "en": "Linkou Former Universiade Athletes' Village Social Housing is the first social housing complex managed by HURC and is currently the largest in Taiwan in terms of land area and number of households, with a total of 3,490 residential units.\n\nTo proactively care for the daily lives of residents, we have established a service center and a regular visitation system. NPOs have also been brought on-site to deliver specialized services, including shelter support for survivors of domestic violence, outreach and care for elderly residents, and community programs for families living with autism.\n\nFurthermore, to foster neighborhood integration and community identity, we continually promote the \"Participatory Public Art Project,\" encouraging residents to voluntarily participate in community development through various events",
+              "zh": "林口世大運選手村社會住宅是 國家住宅及都市更新中心 首個接手管理的社會住宅，目前為台灣規模最大的社宅案，佔地面積與住戶數量均居全國之冠，共設有 3,490 戶住宅單元。\n\n為積極關懷住戶的日常生活，我們設立了服務中心並建立定期訪視制度。此外，我們也引進 NPO 進駐，提供專業服務，包括受暴婦女安置支援、高齡長者外展關懷，以及自閉症家庭社群服務。\n\n為促進鄰里融合與社區認同，我們持續推動「參與式公共藝術計畫」，透過多元活動鼓勵住戶自發參與社區發展。",
               "component": "B"
             }
           ],
           "titleRows": [
             {
-              "en": "Case Study: A model of operational experience\nThe Social Housing in Linkou's Former Universiade Athletes' Village",
+              "en": "Case Study: A model of operational experience\nLinkou Former Universiade Athletes' Village Social Housing",
               "zh": "案例介紹：營運經驗的典範\n林口世大運選手村社會住宅",
               "component": "A"
             }
@@ -4926,7 +4911,7 @@
           "texts": [
             {
               "en": "GOV-led urban regeneration is a government-initiated approach that targets areas with urgent renewal needs, prioritizing public interest and safety. These sites typically involve government-owned land or properties belonging to state-owned enterprises. Through this process, HURC coordinates public and private stakeholders, ensuring that upon completion, units are allocated back to the government as social housing, long-term care services, and public benefit facilities.",
-              "zh": "由政府主導的公辦都更，優先考慮公共利益和安全，並專注於亟需改造的區域。這些區域通常涉及政府所有的土地或國有企業的房產。在此過程中，HURC協調公共和私營部門的利益相關者，確保改造完成後，將房屋單元作為社會住宅、長期照護服務和公共福利設施歸還給政府。",
+              "zh": "由政府主導的公辦都更，優先考慮公共利益和安全，並專注於亟需改造的區域。這些區域通常涉及政府所有的土地或國營企業的不動產。在此過程中，本中心透過公、私部門的整合與溝通，透過都市更新將房屋單元作為社會住宅、長期照護服務和公共福利設施歸還給政府。",
               "component": "B"
             }
           ],
@@ -4968,8 +4953,8 @@
               "component": "C"
             },
             {
-              "en": "Memory Preserved, Community Empowered\nThrough the innovative \"Hippocampus Experimental Project\" (海馬迴實驗計劃), the project documented the renewal process through photography and illustration, preserving local cultural memories while applying social design methodologies to help residents become active partners in creating better living environments.",
-              "zh": "記憶得以保存，社區得以培力\n\n透過創新的“海馬實驗計劃”，該計畫以攝影和插畫記錄了更新過程，在保存當地文化記憶的同時，運用社會設計方法幫助居民成為創造更美好生活環境的積極參與者。",
+              "en": "Memory Preserved, Community Empowered\nThrough the innovative \"Hippocampus Experimental Project\" (海馬迴實驗計畫), the project documented the renewal process through photography and illustration, preserving local cultural memories while applying social design methodologies to help residents become active partners in creating better living environments.",
+              "zh": "記憶得以保存，社區得以培力\n\n透過創新的“海馬迴實驗計畫”，該計畫以攝影和插畫記錄了更新過程，在保存當地文化記憶的同時，運用社會設計方法幫助居民成為創造更美好生活環境的積極參與者。",
               "component": "D"
             },
             {
@@ -5049,18 +5034,18 @@
           },
           "texts": [
             {
-              "en": "Site Background and Challenges\nThe Xinyi project spans six sub-sites in Taipei's Xinyi District, centered on two social welfare institutions rooted in the community for over 50 years: the Vocational Training Center (established in 1963) and the Taipei Child Welfare Center (established in 1969). In the 2010s, an urban renewal plan was initiated for Sites A and B but was terminated after two years. In 2018, HURC was established and took over these lands, reengaging in redevelopment efforts. The core challenges were twofold: buildings were constructed on nation-owned land with separated land and building ownership — making it difficult for the operating organization to secure its original footprint after renewal — and the organization needed to continue operating on-site throughout and after the process without interruption.",
-              "zh": "基地與背景介紹\n本案位於台北市信義區，涵蓋六個子基地，以兩個深耕社區逾 50 年的社會福利機構為核心：職業訓練中心（成立於 1963 年）與台北兒童福利中心（成立於 1969 年）。2010 年代，A、B 基地曾一度啟動都更計畫，但歷時兩年規劃後終止。2018 年，HURC 成立並接手此案，重啟都市更新推動工作。本案的核心課題有兩項：建築物坐落於國有土地之上，土地與建築所有權分離，致使營運機構難以在都更後取回所需面積；同時，該機構亦須在整個更新過程中持續在地營運，不得中斷服務。",
+              "en": "Site Background and Challenges\nThe Xinyi project spans six sub-sites in Taipei's Wufenpu area, centered on two social welfare institutions rooted in the community for over 50 years. The Zhonghua Vocational Training Center — aged 54 years, with its operator owning the building but not the land — and declining vocational training demand made renewal both necessary and long overdue.",
+              "zh": "專案背景及挑戰\n\n信義兒福案位於台北市五分埔區，包含六個子計畫點，其核心是兩家紮根社區超過50年的社會福利機構。中華職業訓練中心已有54年歷史，其營運方擁有建築所有權但並非擁有土地所有權。隨著職業技能培訓需求的下降，該中心亟需翻新，且翻新工程早已迫在眉睫。",
               "component": "B"
             },
             {
-              "en": "Continuity of Essential Services\nDesignating B1-1 as the seed site, HURC applied the build-before-demolish strategy and a three-phase Sequential Urban Redevelopment approach. During 2018–2019, dispersed land ownership was consolidated through a valuation mechanism and exchanged at equivalent value, with B1-1 prioritized for investment. In 2021–2022, following the rights exchange, Sites A1, B1-2, and B3-2 were consolidated and investor solicitation launched zone by zone. From 2023 to 2026, with Site B2 ready for investment, the renewal momentum began spreading to surrounding neighborhoods, encouraging local communities to engage in autonomous urban renewal. This approach allowed the kindergarten to continue operating without interruption — transitioning seamlessly into a new facility — while minimizing the relocation burden for all stakeholders throughout the renewal process.",
-              "zh": "服務不中斷\nHURC 選定 B1-1 為種子基地，採用「先建後拆」策略，並分三階段推進連鎖式都市更新。2018 至 2019 年，透過估價機制將分散的土地所有權集中並作等值交換，優先推動 B1-1 基地招商；2021 至 2022 年，完成產權及地上物交換後，整合 A1、B1-2、B3-2 基地所有權人，分區陸續啟動招商；2023 至 2026 年，B2 基地整合完成後啟動都更，更新效益逐步擴散至周邊鄰里，帶動在地自主更新動能。此策略使幼兒園得以在整個都更過程中維持不間斷的正常營運，平穩遷入全新設施，並將對各方的衝擊與遷置負擔降至最低。",
+              "en": "Continuity of Essential Services\n\nDesignating B1-1 as the seed site, HURC applied the build-before-demolish strategy and used land value exchange to consolidate scattered property rights. This allowed the kindergarten to continue operating without interruption — transitioning seamlessly into a new facility — while minimizing the relocation burden for elderly residents throughout the renewal process.",
+              "zh": "保障服務連續性\n\n國家住宅及都市更新中心 將 B1-1 地塊指定為啟動基地，採用先建後拆的策略，並利用土地價值置換來整合分散的產權。這使得幼兒園得以繼續運營，順利過渡到新地點，同時最大限度地減輕了整個改造過程中老年居民的搬遷負擔。",
               "component": "C"
             },
             {
-              "en": "An Age-Inclusive Urban Ecosystem\nBy 2024, all projects had successfully secured investment, attracting over NT$18 billion (approx. EURO 500 million) in total. Across the six sub-sites, the development establishes two distinct communities: Site A — \\\"Home for All Ages\\\" builds an age-inclusive ecosystem combining age-friendly rental housing, medical services, elderly day-care services, and long-term care facilities; Site B — \\\"New Lifestyle of Working and Living\\\" continues the area's traditional attire industry heritage by integrating rental housing, co-working spaces, and business incubators to attract young entrepreneurs and designers, alongside childcare centers to support young families. Public-benefit facilities are donated to the Taipei City Government, while B1-2 and B3-2 are co-designed with Spanish architecture firm EMBT.",
-              "zh": "全齡友善都市生態系\n至 2024 年，信義兒福所有子基地均已完成招商，累計吸引逾 180 億元（約 5 億歐元） 的民間投資。六個子基地發展為兩種截然不同的社區型態：A 基地「全齡友善生態社區」 建構涵蓋高齡友善出租住宅、醫療服務、高齡日間照護中心及長期照護設施的全齡生態系統；B 基地「在地職住生活新模式」 延續當地傳統服飾產業文化，整合出租住宅、共享辦公室及產業新創基地，吸引青年創業者與設計師進駐，並設置托嬰中心與幼兒園，滿足年輕家庭需求。公益設施捐贈予台北市政府，B1-2 及 B3-2 由西班牙建築事務所 EMBT 共同設計。",
+              "en": "An Age-Inclusive Urban Ecosystem\nAcross six sub-sites, the development establishes an age-inclusive ecosystem — combining senior-friendly rental housing, long-term care services, a day-care center, social housing, and youth entrepreneurship spaces. Public-benefit facilities are donated to the Taipei City Government, while B1-2 and B3-2 are co-designed with Spanish architecture firm EMBT.",
+              "zh": "一個包容所有年齡層的都市生態系統\n\n該計畫由六個子基地組成，目的建立一個包容所有年齡層的生態系統——融合了適合長者的租屋單元、長期照顧服務、日照中心、社會住宅以及青年創業空間。公益設施捐贈給台北市政府，而B1-2層和B3-2則由西班牙建築事務所EMBT共同設計。",
               "component": "D"
             }
           ],
@@ -5128,7 +5113,7 @@
           "texts": [
             {
               "en": "The Veterans Resettlement Project is a relocation assistance initiative under HURC's state-led urban regeneration program, designed to protect vulnerable residents — particularly elderly individuals living in deteriorating dormitory conditions — from displacement during urban transformation. Through respectful dialogue and sustained community engagement, HURC works with original residents to carefully assess individual needs and facilitate voluntary relocation to social housing units or suitable rental accommodations, providing access to modernized facilities with contemporary amenities, barrier-free accessibility features, elevator access, and enhanced safety systems.",
-              "zh": "退員安居專案輔導計畫是HURC公辦都更計畫下推出的一項搬遷援助計劃，目的在保護弱勢居民——特別是居住在條件日益惡化的宿舍中的老年人——免於在城市改造過程中流離失所。 HURC透過尊重對話和持續的社區參與，與原始居民合作，認真評估個人需求，並協助他們自願搬遷至社會住宅或合適的租賃住所，從而獲得配備現代化設施、無障礙通道、電梯和增強型安全系統的住房。",
+              "zh": "退員安居專案輔導計畫是國家住宅及都市更新中心公辦都更計畫下推出的一項搬遷援助計劃，目的在保護弱勢居民——特別是居住在條件日益惡化的宿舍中的老年人——免於在城市改造過程中流離失所。 國家住宅及都市更新中心透過尊重對話和持續的社區參與，與原始居民合作，認真評估個人需求，並協助他們自願搬遷至社會住宅或合適的租賃住所，從而獲得配備現代化設施、無障礙通道、電梯和增強型安全系統的住房。",
               "component": "B"
             }
           ],
@@ -5202,7 +5187,7 @@
           "texts": [
             {
               "en": "Urban renewal projects frequently involve complex property rights, irregularly shaped land parcels, and occupancy disputes — factors that create unpredictable variables and require sustained engagement with multiple rights holders over extended periods. To navigate this complexity more effectively, HURC established the Private Sector Integration Partnership, introducing experienced private sector teams to lead stakeholder coordination and property rights consolidation work. Building on the results of the pilot program, HURC has since launched a second phase (2.0), simultaneously advancing additional sites while guiding private integration teams to promote sound urban renewal practices across Taiwan.",
-              "zh": "都市更新計畫往往涉及複雜的產權、不規則形狀的土地以及佔用糾紛——這些因素造成了難以預料的變數，需要與多方權利持有者進行長期持續的溝通協調。為了更有效地應對這種複雜性，HURC成立了私部門整合夥伴關係，引入經驗豐富的私部門團隊來主導利害關係人的協調和產權整合工作。在試點計畫成果的基礎上，HURC已啟動第二階段（2.0），在推動更多計畫的同時，指導私部門整合團隊在台灣各地推廣合理的城市更新實踐。",
+              "zh": "都市更新計畫往往涉及複雜的產權、不規則形狀的土地以及佔用糾紛——這些因素造成了難以預料的變數，需要與多方權利持有者進行長期持續的溝通協調。為了更有效地應對這種複雜性，國家住宅及都市更新中心成立了私部門整合夥伴關係，引入經驗豐富的私部門團隊來主導利害關係人的協調和產權整合工作。在試點計畫成果的基礎上，國家住宅及都市更新中心已啟動第二階段（2.0），在推動更多計畫的同時，指導私部門整合團隊在台灣各地推廣合理的城市更新實踐。",
               "component": "B"
             }
           ],
@@ -6012,29 +5997,14 @@
       }
     ],
     "E-H-6": [
+      
       {
-        "name": "E-H-6-1-A-1_行二行三都更模擬圖_分享暫存區.jpg",
-        "url": "assets/photos/E-H-6-1-01.jpg",
-        "bytes": 2147529,
-        "width": 3981,
-        "height": 2239,
-        "source": "分享暫存區"
-      },
-      {
-        "name": "E-H-6-1-A-2_保二都更模擬圖_分享暫存區.jpg",
-        "url": "assets/photos/E-H-6-1-02.jpg",
-        "bytes": 7021934,
-        "width": 4000,
-        "height": 2353,
-        "source": "分享暫存區"
-      },
-      {
-        "name": "E-H-6-1-A-2_行二行三都更模擬圖_分享暫存區.jpg 的副本.jpg",
-        "url": "assets/photos/E-H-6-1-03.jpg",
-        "bytes": 2147529,
-        "width": 3981,
-        "height": 2239,
-        "source": "分享暫存區.jpg 的副本"
+        "name": "E-H-6-2.png",
+        "url": "assets/photos/E-H-6-2.png",
+        "bytes": 8462627,
+        "width": 3341,
+        "height": 2214,
+        "source": "模擬圖"
       },
       {
         "name": "E-H-6-1-A-3_圓山都更模擬圖_分享暫存區.jpg",
