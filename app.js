@@ -380,16 +380,16 @@ function navMarkup(side) {
           const grandChildren = child.children || [];
           const triggerId = child.targetId || child.slug || child.id || child.en;
           const showOverview = child.targetId && child.showOverview !== false;
-            const nested = grandChildren.length
-              ? `
+          const nested = grandChildren.length
+            ? `
               <div class="nav-submenu">
                 ${showOverview ? `<button class="nav-overview" type="button" data-route="${child.targetId}">${overviewLabel}</button>` : ""}
                 ${grandChildren
-                  .map((grand) => {
-                    const grandLabel = side === "en" ? grand.en : grand.zh;
-                    return `<button type="button" data-route="${grand.targetId}">${escapeHtml(grandLabel)}</button>`;
-                  })
-                  .join("")}
+              .map((grand) => {
+                const grandLabel = side === "en" ? grand.en : grand.zh;
+                return `<button type="button" data-route="${grand.targetId}">${escapeHtml(grandLabel)}</button>`;
+              })
+              .join("")}
               </div>
             `
             : "";
@@ -428,7 +428,10 @@ function headerMarkup() {
         <nav class="nav-pane en" aria-label="English navigation">${navMarkup("en")}</nav>
       </div>
       <div class="rail-head">
-        <button class="source-editor-trigger" type="button" data-structure-link>內容＆參考出處檔案</button>
+        <div class="rail-head-buttons">
+          <button class="source-editor-trigger" type="button" data-structure-link>參考出處檔案</button>
+          <button class="source-editor-trigger" type="button" data-vocab-link>語料庫</button>
+        </div>
         <span class="rail-caption">英文網站翻譯對照</span>
       </div>
       <div class="header-side zh-side">
@@ -457,14 +460,13 @@ function carousel(section, sectionKey, side) {
     <div class="carousel ${logoLike ? "logo-like" : ""}" data-carousel="${sectionKey}-${side}" data-carousel-group="${sectionKey}" data-index="${startIndex}">
       <img src="${first.url || ""}" alt="">
       <div class="carousel-caption">${escapeHtml(caption)}</div>
-      ${
-        photos.length > 1
-          ? `<div class="carousel-controls" aria-label="${sectionKey} carousel controls">
+      ${photos.length > 1
+      ? `<div class="carousel-controls" aria-label="${sectionKey} carousel controls">
               <button type="button" data-carousel-prev="${sectionKey}" aria-label="Previous image">‹</button>
               <button type="button" data-carousel-next="${sectionKey}" aria-label="Next image">›</button>
             </div>`
-          : ""
-      }
+      : ""
+    }
     </div>
   `;
 }
@@ -494,16 +496,16 @@ function quickPane(side) {
     <div class="quick-wrap">
       <div class="quick-grid">
         ${data.quickLinks
-          .map((item) => {
-            const title = isEn ? item.en : item.zh;
-            return `
+      .map((item) => {
+        const title = isEn ? item.en : item.zh;
+        return `
               <button class="quick-card" type="button" data-route="${item.target}">
                 <span class="quick-icon">${icons[item.icon]}</span>
                 <span><strong>${escapeHtml(title)}</strong></span>
               </button>
             `;
-          })
-          .join("")}
+      })
+      .join("")}
       </div>
     </div>
   `;
@@ -541,19 +543,19 @@ function socialPane(side) {
         <h2>${escapeHtml(isEn ? section.modeTitle.en : section.modeTitle.zh)}</h2>
         <div class="method-grid">
           ${section.methods
-            .map(
-              (method, index) => {
-                const routeTarget = method.target || (index === 0 ? "E-B-2" : index === 1 ? "E-B-3" : "");
-                return `
+      .map(
+        (method, index) => {
+          const routeTarget = method.target || (index === 0 ? "E-B-2" : index === 1 ? "E-B-3" : "");
+          return `
                   <article class="method-card ${routeTarget ? "" : "method-card-wide"}">
                     <h3>${escapeHtml(isEn ? method.title.en : method.title.zh)}</h3>
                     ${paragraphs(isEn ? method.text.en : method.text.zh)}
                     ${routeTarget ? routeButton(routeTarget, side, "More") : ""}
                   </article>
                 `;
-              },
-            )
-            .join("")}
+        },
+      )
+      .join("")}
         </div>
       </div>
     </section>
@@ -575,15 +577,15 @@ function urbanPane(side) {
         <h2>${escapeHtml(isEn ? section.facetsIntro.en : section.facetsIntro.zh)}</h2>
         <div class="facet-grid">
           ${section.facets
-            .map(
-              (facet) => `
+      .map(
+        (facet) => `
               <article class="facet-card">
                 <h3>${escapeHtml(isEn ? facet.title.en : facet.title.zh)}</h3>
                 ${paragraphs(isEn ? facet.text.en : facet.text.zh)}
               </article>
             `,
-            )
-            .join("")}
+      )
+      .join("")}
         </div>
       </div>
     </section>
@@ -622,15 +624,15 @@ function glossaryTable(side) {
         </thead>
         <tbody>
           ${(data.glossary || [])
-            .map(
-              (item) => `
+      .map(
+        (item) => `
                 <tr>
                   <td>${escapeHtml(item.en)}</td>
                   <td>${escapeHtml(item.zh)}</td>
                 </tr>
               `,
-            )
-            .join("")}
+      )
+      .join("")}
         </tbody>
       </table>
     </div>
@@ -658,8 +660,8 @@ function linkList(section, side) {
     return `
       <div class="link-list">
         ${fixedRows
-          .map(
-            (item) => `
+        .map(
+          (item) => `
               <div class="link-list-row">
                 <div>
                   <strong>${escapeHtml(side === "en" ? item.en : item.zh)}</strong>
@@ -667,8 +669,8 @@ function linkList(section, side) {
                 <a class="route-button" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${side === "en" ? "Link" : "連結"}</a>
               </div>
             `,
-          )
-          .join("")}
+        )
+        .join("")}
       </div>
     `;
   }
@@ -676,15 +678,15 @@ function linkList(section, side) {
   const titles = section.titleRows || [];
   const rows = titles.length
     ? titles.map((title, index) => ({
-        title: titleText(title, side),
-        note: section.links?.[index] ? titleText(section.links[index], side) : "",
-      }))
+      title: titleText(title, side),
+      note: section.links?.[index] ? titleText(section.links[index], side) : "",
+    }))
     : (section.links || []).map((link) => ({ title: titleText(link, side), note: "" }));
   return `
     <div class="link-list">
       ${rows
-        .map(
-          (item) => `
+      .map(
+        (item) => `
             <div class="link-list-row">
               <div>
                 <strong>${escapeHtml(item.title)}</strong>
@@ -693,8 +695,8 @@ function linkList(section, side) {
               <button class="route-button" type="button">${side === "en" ? "Link" : "連結"}</button>
             </div>
           `,
-        )
-        .join("")}
+      )
+      .join("")}
     </div>
   `;
 }
@@ -714,14 +716,14 @@ function splitDuties(textValue, side) {
   if (!source) return [];
   const headings = side === "en"
     ? [
-        "Social Housing Development and Construction Department",
-        "Assets Management Department",
-        "Urban Regeneration Department",
-        "Executive Office",
-        "Administration Department",
-        "Southern Branch",
-        "Audit Office",
-      ]
+      "Social Housing Development and Construction Department",
+      "Assets Management Department",
+      "Urban Regeneration Department",
+      "Executive Office",
+      "Administration Department",
+      "Southern Branch",
+      "Audit Office",
+    ]
     : ["社會住宅部", "資產管理部", "都更業務部", "總管理室", "行政管理部", "南部辦公室", "稽核室"];
   const matches = headings
     .map((heading) => ({ heading, index: source.indexOf(heading) }))
@@ -734,10 +736,10 @@ function splitDuties(textValue, side) {
     const items = side === "en"
       ? body.split(/\n+/).map((part) => part.trim()).filter(Boolean)
       : body
-          .replace(/([。；])(?=[(（][一二三四五六七八九十]+[)）])/g, "$1\n")
-          .split(/\n|(?=[(（][一二三四五六七八九十]+[)）])/)
-          .map((part) => part.trim())
-          .filter(Boolean);
+        .replace(/([。；])(?=[(（][一二三四五六七八九十]+[)）])/g, "$1\n")
+        .split(/\n|(?=[(（][一二三四五六七八九十]+[)）])/)
+        .map((part) => part.trim())
+        .filter(Boolean);
     return { heading: item.heading, items };
   });
 }
@@ -749,10 +751,10 @@ function businessDuties(section, side) {
   return `
     <div class="business-duty-grid">
       ${duties
-        .map(
-          (duty) => {
-            const target = businessDutyTargets[duty.heading] || "";
-            return `
+      .map(
+        (duty) => {
+          const target = businessDutyTargets[duty.heading] || "";
+          return `
             <article class="business-duty-card">
               <h3>${escapeHtml(duty.heading)}</h3>
               <ul>
@@ -761,9 +763,9 @@ function businessDuties(section, side) {
               ${target ? `<div class="section-tools">${routeButton(target, side, "More")}</div>` : ""}
             </article>
           `;
-          },
-        )
-        .join("")}
+        },
+      )
+      .join("")}
     </div>
   `;
 }
@@ -831,15 +833,15 @@ function pageSectionPane(section, side) {
       ? screenPreview(section)
       : section.mediaRows?.length
         ? `<div class="media-placeholder">${side === "en" ? "Image or chart placeholder" : "圖表或圖片待補"}</div>`
-      : "";
+        : "";
   const moreTarget = majorAffairsTargets[section.id] || "";
   const links = moreTarget
     ? `<div class="section-tools link-tools">${routeButton(moreTarget, side, "More")}</div>`
     : section.links?.length && section.id !== "E-A-2-2" && !section.id.startsWith("E-D-2")
       ? `<div class="section-tools link-tools">
         ${section.links
-          .map((link) => `<button class="route-button" type="button">${escapeHtml(side === "en" ? link.en : link.zh || link.en)}</button>`)
-          .join("")}
+        .map((link) => `<button class="route-button" type="button">${escapeHtml(side === "en" ? link.en : link.zh || link.en)}</button>`)
+        .join("")}
       </div>`
       : "";
   return `
@@ -1026,6 +1028,11 @@ function setupInteractions() {
 
     if (event.target.closest("[data-structure-link]")) {
       openStructureLink();
+      return;
+    }
+
+    if (event.target.closest("[data-vocab-link]")) {
+      window.open("https://hurcteams-my.sharepoint.com/:x:/g/personal/10712_hurc_tw/IQCBEZ2tsfP3R5E7IQSNibMHASXddoj6VAvlfPQXgNpzAWI?e=6rbLbc", "_blank", "noreferrer");
       return;
     }
 

@@ -57,7 +57,7 @@ button {
   backdrop-filter: blur(12px);
 }
 
-.site-header > * {
+.site-header>* {
   min-width: 0;
 }
 
@@ -274,6 +274,28 @@ button {
 .rail-head strong {
   display: block;
   font-size: 13px;
+}
+
+.rail-head-buttons {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+}
+
+.rail-head-buttons [data-structure-link] {
+  flex: 2;
+  min-width: 0;
+  padding: 6px 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.rail-head-buttons [data-vocab-link] {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 4px;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 .source-editor-trigger {
@@ -666,7 +688,7 @@ p {
   direction: ltr;
 }
 
-.zh .intro-content > * {
+.zh .intro-content>* {
   direction: ltr;
 }
 
@@ -1434,6 +1456,7 @@ p {
 }
 
 @media (max-width: 860px) {
+
   .site-header,
   .compare-row {
     grid-template-columns: 1fr;
