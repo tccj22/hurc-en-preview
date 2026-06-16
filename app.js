@@ -297,6 +297,34 @@ const contactBoldLines = {
   zh: ["Facebook", "YouTube", "Youtube", "Instgram"],
 };
 const caseStudyBoldLines = {
+  "E-A-2-2-1-1": {
+    en: ["Education:", "Professional Experience:"],
+    zh: ["學歷", "經歷"],
+  },
+  "E-A-2-2-2-1": {
+    en: ["Education:", "Certifications:", "Professional Experience:"],
+    zh: ["學歷", "證照", "經歷"],
+  },
+  "E-A-2-2-3-1": {
+    en: ["Education:", "Professional Experience:"],
+    zh: ["學歷", "經歷"],
+  },
+  "E-A-2-2-3-2": {
+    en: ["Education:", "Professional Experience:"],
+    zh: ["學歷", "經歷"],
+  },
+  "E-B-3-2": {
+    en: [
+      "Property Management Team: Stable and Orderly Community Life",
+      "24/7 Monitoring: Disaster Prevention and Relief Ready, Safeguarding Safety",
+      "Active Community: Friendly and Inclusive",
+    ],
+    zh: [
+      "物管團隊：社區生活穩定、有秩序",
+      "24H監控：防災救護備妥，守護安全",
+      "活動社區:友善包容",
+    ],
+  },
   "E-B-4-2": {
     en: [
       "Site Background and Challenges",
@@ -602,8 +630,12 @@ function paragraphs(value, boldLines = []) {
       const formatted = part
         .split("\n")
         .map((line) => {
-          const escaped = escapeHtml(line);
-          return boldSet.has(line.trim()) ? `<strong>${escaped}</strong>` : escaped;
+          let escaped = escapeHtml(line);
+          if (boldSet.has(line.trim())) {
+            escaped = `<strong>${escaped}</strong>`;
+          }
+          escaped = escaped.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+          return escaped;
         })
         .join("<br>");
       return `<p class="body-text">${formatted}</p>`;
@@ -840,7 +872,13 @@ function pageSectionPane(section, side) {
     : section.links?.length && section.id !== "E-A-2-2" && !section.id.startsWith("E-D-2")
       ? `<div class="section-tools link-tools">
         ${section.links
-        .map((link) => `<button class="route-button" type="button">${escapeHtml(side === "en" ? link.en : link.zh || link.en)}</button>`)
+        .map((link) => {
+          const label = side === "en" ? link.en : link.zh || link.en;
+          if (link.url) {
+            return `<a class="route-button" href="${escapeHtml(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`;
+          }
+          return `<button class="route-button" type="button">${escapeHtml(label)}</button>`;
+        })
         .join("")}
       </div>`
       : "";
