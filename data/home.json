@@ -365,8 +365,8 @@
                      "summary":  "政府直接興辦",
                      "component":  "B",
                      "type":  "text",
-                     "en":  "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC has directly constructed and manages over 70,000 social housing units nationwide.",
-                     "zh":  "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心已直接興建並管理全國逾 7 萬戶社會住宅。",
+                     "en":  "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC is acquiring social housing through direct construction and diversified approaches, and will manage more than 70,000 social housing units nationwide in the future.",
+                     "zh":  "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心正藉由直接興建或多元方式取得社會住宅，未來將管理全國逾 7 萬戶社會住宅。",
                      "note":  "",
                      "unit":  "社會住宅部"
                  },
@@ -983,8 +983,8 @@
                                                                      "summary":  "政府直接興辦",
                                                                      "component":  "B",
                                                                      "type":  "text",
-                                                                     "en":  "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC has directly constructed and manages over 70,000 social housing units nationwide.",
-                                                                     "zh":  "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心已直接興建並管理全國逾 7 萬戶社會住宅。",
+                                                                     "en":  "HURC leads the entire process of social housing construction — from planning, design, tendering, and operation. Social housing developments are currently underway in various cities across Taiwan. The core purpose of social housing is to provide housing at affordable rent and to help disadvantaged households secure stable homes. To date, HURC is acquiring social housing through direct construction and diversified approaches, and will manage more than 70,000 social housing units nationwide in the future.",
+                                                                     "zh":  "本中心主導社會住宅興建的全流程，涵蓋規劃、設計、招標與營運管理。目前社會住宅興辦工作正在台灣各地城市積極推進，社會住宅的核心目的在於提供可負擔租金的住宅，協助弱勢家庭獲得穩定的居住環境。截至目前，本中心正藉由直接興建或多元方式取得社會住宅，未來將管理全國逾 7 萬戶社會住宅。",
                                                                      "note":  "",
                                                                      "unit":  "社會住宅部"
                                                                  },
@@ -1251,9 +1251,9 @@
                                                   {
                                                       "name":  "photo_E-H-6-02.jpg",
                                                       "url":  "assets/photos/photo_E-H-6-02.jpg",
-                                                      "bytes":  4992919,
-                                                      "width":  3000,
-                                                      "height":  1689,
+                                                      "bytes":  2821802,
+                                                      "width":  3840,
+                                                      "height":  2160,
                                                       "source":  "分享暫存區"
                                                   }
                                               ],
