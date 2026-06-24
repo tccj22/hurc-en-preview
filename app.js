@@ -1,4 +1,4 @@
-const app = document.querySelector("#app");
+﻿const app = document.querySelector("#app");
 const scheduleDialog = document.querySelector("#scheduleDialog");
 const dialog = document.querySelector("#previewDialog");
 const previewImage = document.querySelector("#previewImage");
@@ -26,7 +26,7 @@ let data;
 const routeLabelMap = {};
 let currentRoute = routeFromHash();
 let sourceEditorUnlocked = false;
-let scheduleDialogDismissed = true;
+let scheduleDialogDismissed = false;
 let pendingScheduleDialog = false;
 let pendingScheduleDialogForce = false;
 
@@ -315,14 +315,14 @@ const caseStudyBoldLines = {
   },
   "E-B-3-2": {
     en: [
-      "Property Management Team: Stable and Orderly Community Life",
-      "24/7 Monitoring: Disaster Prevention and Relief Ready, Safeguarding Safety",
-      "Active Community: Friendly and Inclusive",
+      "Property Management Team: Ensuring a stable and well-managed living environment",
+      "24-Hour Security Monitoring：Disaster Prevention and Relief Ready",
+      "Community Building and Resident Engagement：Creating welcoming and inclusive living",
     ],
     zh: [
       "物管團隊：社區生活穩定、有秩序",
       "24H監控：防災救護備妥，守護安全",
-      "活動社區:友善包容",
+      "社區營造與居民參與：打造友善包容生活",
     ],
   },
   "E-B-4-2": {
