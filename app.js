@@ -1,4 +1,4 @@
-﻿const app = document.querySelector("#app");
+const app = document.querySelector("#app");
 const scheduleDialog = document.querySelector("#scheduleDialog");
 const dialog = document.querySelector("#previewDialog");
 const previewImage = document.querySelector("#previewImage");
@@ -673,10 +673,6 @@ function glossaryTable(side) {
 
 function templateNotice(section, side) {
   const notes = {
-    "E-C-1-1": {
-      en: "Built with the same template as the Traditional Chinese website's latest-news module.",
-      zh: "根據中文網站的最新消息相同模板製作",
-    },
     "E-D-1-1": {
       en: "Built from the bilingual comparison template provided by the vendor.",
       zh: "根據廠商提供中英文對照模板",
@@ -685,6 +681,58 @@ function templateNotice(section, side) {
   const note = notes[section.id]?.[side] || section.sourceNote || section.summary || "";
   return `<div class="template-note"><p>${escapeHtml(note)}</p></div>`;
 }
+
+function newsList(section, side) {
+  const newsItems = [
+    {
+      id: "E-C-1-2",
+      date: "2026-06-10",
+      title: {
+        zh: "臺日營建技術實質對接！　日本大成建設來台參訪「全預鑄」社宅及水泥製品廠",
+        en: "Taiwan–Japan Construction Technology Exchange: Taisei Corporation Visits Taiwan’s First Fully Prefabricated Social Housing Project and Precast Plants"
+      },
+      summary: {
+        zh: "國家住都中心推動營建產業升級的步伐持續加速！繼年初與日本營建龍頭「大成建設」（Taisei Corporation）合作，近日大成建設專家團隊更親自走訪國內多間水泥製品廠並探訪全國首座採用「全預鑄」工法、由潤弘精密工程興建的埔心安居A，進行深度的實地查察。",
+        en: "The National Housing and Urban Regeneration Center (HURC) continues to accelerate efforts to upgrade Taiwan’s construction industry. Following the launch of a professional training program on precast construction methods earlier this year in collaboration with Japan’s leading contractor, Taisei Corporation, a delegation of Taisei experts recently visited several domestic precast concrete plants. The delegation also conducted an in-depth site visit to Puxin HURC Social Housing A, the nation’s first social housing project constructed using a fully prefabricated approach, developed by Ruentex Engineering & Construction."
+      },
+      photo: "assets/photos/photo_E-C-1-2-01.jpg"
+    }
+  ];
+
+  return `
+    <div class="news-list-container">
+      ${newsItems
+        .map((item) => {
+          const title = side === "en" ? item.title.en : item.title.zh;
+          const summary = side === "en" ? item.summary.en : item.summary.zh;
+          const dateLabel = side === "en" ? "Date: " : "發布日期：";
+          return `
+            <article class="news-list-card">
+              <div class="news-card-image">
+                <img src="${item.photo}" alt="${escapeHtml(title)}" loading="lazy">
+              </div>
+              <div class="news-card-content">
+                <div>
+                  <div class="news-card-date">${dateLabel}${item.date}</div>
+                  <h3 class="news-card-title">
+                    <a href="#${item.id}" class="news-title-link" data-route="${item.id}">${escapeHtml(title)}</a>
+                  </h3>
+                  <p class="news-card-excerpt">${escapeHtml(summary)}</p>
+                </div>
+                <div class="news-card-action">
+                  <button class="route-button" type="button" data-route="${item.id}">
+                    ${side === "en" ? "Read More" : "閱讀更多"}
+                  </button>
+                </div>
+              </div>
+            </article>
+          `;
+        })
+        .join("")}
+    </div>
+  `;
+}
+
 
 function linkList(section, side) {
   const fixedRows = fixedExternalLinks[section.id];
@@ -828,9 +876,13 @@ function homeMarkup() {
 function pageIntroPane(page, side) {
   const title = titleText(page.title, side);
   const subtitle = titleText(page.subtitle, side);
+  const backRoute = page.id.startsWith("E-C-1-") ? "E-C-1" : "home";
+  const backText = page.id.startsWith("E-C-1-")
+    ? (side === "en" ? "Back to News" : "回最新消息")
+    : (side === "en" ? "Home" : "回首頁");
   return `
     <section class="subpage-hero-panel">
-      <button class="route-button back-button" type="button" data-route="home">${side === "en" ? "Home" : "回首頁"}</button>
+      <button class="route-button back-button" type="button" data-route="${backRoute}">${backText}</button>
       ${subtitle ? `<p class="subpage-kicker">${escapeHtml(subtitle)}</p>` : ""}
       <h1>${escapeHtml(title)}</h1>
     </section>
@@ -853,7 +905,7 @@ function pageSectionPane(section, side) {
   const specialContent = section.id === "E-D-1-1"
     ? glossaryTable(side)
     : section.id === "E-C-1-1"
-      ? templateNotice(section, side)
+      ? newsList(section, side)
       : section.id.startsWith("E-D-2")
         ? linkList(section, side)
         : section.id === "E-A-2-3"
